@@ -5789,7 +5789,7 @@ We hope to answer these and other questions in the long and challenging
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "THE-GOOD-ONE-MyLibrary"
+bibfiles "JNualart-2013-HowWeDrawTexts-LitRev"
 options "bibtotoc,plainnat"
 
 \end_inset
