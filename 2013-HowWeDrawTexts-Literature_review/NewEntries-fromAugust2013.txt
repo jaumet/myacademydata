@@ -1,0 +1,19 @@
+
+SINGLE TEXTS:
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COLLECTIONS OF TEXTS:
+
+~~~~
+* PaperScape: an Overview of all Scientific Papers Submitted at arXiv: http://paperscape.org/
+buildings_nl.jpg
+What can be accomplished for about 320,000 buildings in a New York neighborhood, can also be done for 9,866,539 buildings located in a whole country. In the interactive map [waag.org] each building in the Netherlands is been shaded according to the year of its construction.
+
+For instance, in most cities one can observe how the inner city contains the oldest buildings, and 'rings' of newer buildings are surrounding it. In many small villages, the center is characterised by an old, historic church.
+
+The map was built on top of the CitySDK, a linked data distribution platform that enables the linking between (mobility) datasets and city services.
+
+
+~~~~
+* 
