@@ -77,6 +77,31 @@ How we draw texts
 
 \begin_layout Subtitle
 A literature review on text visualization tools
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/cc-by-sa.png
+
+\end_inset
+
+ 
+\size tiny
+This work is licensed under a 
+\begin_inset CommandInset href
+LatexCommand href
+name "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+target "http://creativecommons.org/licenses/by-sa/3.0/"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Author
@@ -8878,6 +8903,8 @@ Wikipedia
 \end_layout
 
 \begin_layout Standard
+
+\size tiny
 [http://pensivepuffin.com/dwmcphd/syllabi/info447_wi12/readings/wk09-Organizing/w
 attenberg.Chromogram.INTERACT08.pdf]
 \end_layout
