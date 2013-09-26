@@ -1,0 +1,117 @@
+Literature review: What did you read about it? What is the point of doing it?
+Probably the whole point can be extracted from the literature review “How we draw texts”
+[2Q1] What did you read about it? 
+[2Q2] What is the point of doing it?
+
+[2W1] to summarise what is known about this particular topic area
+[2W2] to critically evaluate the relevant literature
+[2W3] to show how your research projects fits in
+[2W4] to demonstrate how the research questions have emerged from extant knowledge
+[2W5] to clarify why, theoretically, there is a question to be answered
+
+[2C1] This section is where you will establish the conceptual framework for your research. Whilst its purpose is to critically inspect literature on your topic, the underlying goal is to justify that your own research is worthwhile. Without having established how your own research logically follows from this critical inspection of previous literature, you cannot satisfy the requirement of showing how your research will add to existing knowledge.
+[2C2] This section captures, more than anything else, the argument on which your whole research depends.
+[2C3] For most research studies, the literature review comprises the major part of a preliminary proposal for a research project.
+[2C4] By the end of literature it should be clear why there is a theoretical/practical gap which needs to be filled. It is the importance that needs to be clear – just because something has not been done does not make it interesting.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2Q1] What did you read about it? 
+
+NOTE: as part of this reserach project I published the document "How we draw texts: a literature review on text visualization tools" on July 2013. It is part of the deliverables agreement with NICTA. The document contents a short report on data visualization field: origins, status, and challenges (first part). And a literature review on text visualization tools (second part). The document is 95 pages long and this is too much for a research proposal, we present here an extract of it. The document is accessible online in this URL: (XXXX http://research.nualart.cat/...) 
+
+Since I couldn't find less than five years old text visualization literature reviews and the field changes so fast, I analized all the cases I found trying to not to repeat concepts. In case of repetition the older or original case was taken. This idea ended up in forty-nine cases analized.
+
+A remarkable challenge when doing the literature review was to suggest a classification framework of the cases. There is not a clear classification widely accepted or even stablished as the standard. So finally one of the first outputs of this research project is a proposed classification tree for text visualization tools.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2Q2] What is the point of doing it?
+
+There are at least two main aspects when reviewing the cases: the visual language proposed and the dataset. By visual language proposal I mean the essence and features of the tool, its real business, its advantages and limitations. When I talk about dataset it means that most of reviewed cases are launched as visualisation experiments. Very few are consolidated (XXXX) and, in fact, most of cases go off line in the first five years.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2W1] to summarise what is known about this particular topic area
+[2W2] to critically evaluate the relevant literature
+
+This document will continue to be revised during the PhD research. This version is the first beta version (1.0b) and it will be a key tool in shaping future research. At the time that these conclusions are being written, the practice part of the research has already begun. The first goal is to develop ideas to visualize collections of papers from scientific conferences. It will involve collection visualization as well as single text visualization. The aim is to develop two to three views or representations of the conference to help provide researchers with rich information on the contents of the conference. The idea involves show what the conference is about as well as which topics are not present. This literature review is the starting point. For the moment we are inspired by the cases 41 Termite: Visualization Techniques for Assessing Textual Topic Models by Jason Chuang, Christopher D. Manning, Jeffrey Heer (2012) and 40 Grimm’s Fairy Tale Metrics by Jeff Clark (2013) for the conference overview. For one-document-view we are influenced by 15 TileBars: Visualization of Term Distribution Information in Full Text Information Access by Marti A. Hearst (1995) and 7 Texty, a visualization tool to aid selection of texts from search outputs by Jaume Nualart (2008).
+
+Regarding the literature review we are sure that we have not covered all the existing ideas related to text visualization. Certainly because data and text visualization is a relatively new field there is no single consolidated list of dedicated publications and sources. This presents a challenge in making a comprehensive survey of work in the field. Some of the cases we are presenting have been found in very specific publications; for example Joel Deshaye and Peter Stoicheff and their works on Faulkner’s visualizations (cases 11, 12 and 13). Reading Stoicheff’s notes it can be seen that they developed the tools just to assist in a very specific study of William Faulkner’s narrative time lines. There are no references to applications of these interesting ideas to other texts, suggesting that more works remain hidden in the depths of other fields.
+
+Text visualization, as we argue in this document, can be considered a subfield of data visualization. Yet, the boundaries of the field are sometimes not clearly defined. This is the case of 31 Search Clock by Chris Harrison (2008), in which the text corpora is an enormous dataset of search engine queries. Can this dataset be considered a collection of texts if each of them is, in most cases, is only one or two words long? Is there a minimum length of a text to be considered as a text? We decided to treat this case as a collection of texts, short ones, but, ultimately, texts.
+
+One important decision in this review has been the classification of the cases found. Since there are few papers that review text visualization tools, we referenced the classic data visualization reviews [Shneiderman, 1996] as well as new ones (Collins et al. 2009). In these cases the classifications were based on tasks that the visualization tool can solve rather than on the explicit aspects of the visualization. This is why we decided to propose our own classification that, while far from perfect, is hopefully a useful approach to a classification based on visual features.
+
+This is the list of insights and gaps we have found so far:
+
+• Single text visualization cases are applied mainly to literature. Literature is an unstructured text; apart from complex combinations of words it can have high levels of human abstraction and freedom of structures and experimentation. It might be more effective to apply visualization techniques to other kinds of texts with a more formal register and/or predefined style, such as legal texts, scientific papers, template based texts and communications, etc.
+
+• We have found only one single/part text visualization case which is sequential (22 Document Arc Diagrams by Jeff Clark (2007)). Most part text visualizations
+extract the essence of the text based on some criteria and the original sequence of the text is lost. Since sequential visualization tools have some advantages, it seems there is room to develop part visualization tools that maintain the original text sequence.
+
+• Collection visualizations use methods that can be found in data visualization in general. This idea invites experimentation in bringing more standard data visualisation methods and tools to the specific text visualization subfield.
+
+• Collections of aggregations is the category that has developed more specific designs and ideas. More work needs to be done in order to find some patterns in this kind of visualization. 
+
+Open questions related to nature of texts to be faced during this research include:
+• How can we extract the human part of a text?
+• In some ways, text to bag-of-words is a machinification of the text, a simplification. What are we loosing in this transformations?
+• When the intrinsic human part of a text matters? In which tasks can be important to extract it and show it?
+
+These are really big questions that quickly go outside the scope of the project, as it is defined here. To talk about many of these things we would need to go in to textual analysis in literature, as well as computational linguistics, digital humanities among other fields. As these fields are related but not directly belonging to data visualization, we assume that this research project will require investigation in these fields in order to
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2W3] to show how your research projects fits in
+
+From the literature review I saw that most of cases older that five years have dissappeared, are not anymore on line. Most of reviewed projects are not solving problems in real scenarios, but experimenting with visualization libraries and/or famous texts. 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2W4] to demonstrate how the research questions have emerged from extant knowledge
+This observations learned from the review have been the inspiration to define how this practice-based research will be conducted. The methodology aims to avoid this two main problems promoting the adoption & implementation of created visualisation tools, and real problem solving.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2W5] to clarify why, theoretically, there is a question to be answered
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[2C1] This section is where you will establish the conceptual framework for your research. Whilst its purpose is to critically inspect literature on your topic, the underlying goal is to justify that your own research is worthwhile. Without having established how your own research logically follows from this critical inspection of previous literature, you cannot satisfy the requirement of showing how your research will add to existing knowledge.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[2C2] This section captures, more than anything else, the argument on which your whole research depends.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[2C3] For most research studies, the literature review comprises the major part of a preliminary proposal for a research project.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[2C4] By the end of literature it should be clear why there is a theoretical/practical gap which needs to be filled. It is the importance that needs to be clear – just because something has not been done does not make it interesting.
+
+
+
+
