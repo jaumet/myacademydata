@@ -1,0 +1,2128 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrartcl
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding 
+\font_roman ae
+\font_sans lmss
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 1
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Research Proposal
+\end_layout
+
+\begin_layout Itemize
+PhD student: Jaume Nualart Vilaplana 
+\end_layout
+
+\begin_layout Itemize
+Degree: Doctor of Philosophy in Communication 
+\end_layout
+
+\begin_layout Itemize
+Faculty: Arts and Design (FAD)
+\end_layout
+
+\begin_layout Itemize
+Institution: University of Canberra (UC)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+B) Provisional title:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+“Artisanal software development for text visualisation in real scenarios”.
+\end_layout
+
+\begin_layout Section*
+C) Abstract
+\end_layout
+
+\begin_layout Standard
+This practice led research project studies the practical and applied visualisati
+on and exploration of texts.
+ Practical because the main outputs —the artifacts— of the research, will
+ be a number of developed tools published under free licenses; applied because
+ the goal of this project is to demonstrate the utility of the tools developed
+ to visualise and explore real world texts.
+\end_layout
+
+\begin_layout Standard
+While data visualisation seems like a useful and necessary tool to handle
+ the digital environment, few visualisation and exploration tools are used
+ in real world cases.
+ This project aims to address this gap between great ideas developed and
+ few implementations of text visualisation tools.
+ 
+\end_layout
+
+\begin_layout Standard
+The methodology includes being prepared to establish strong relationships
+ between the developer(s) and the client(s), and the investigation of phases
+ of the process: design, development, evaluation, and implementation.
+\end_layout
+
+\begin_layout Standard
+The methodology of development is a customised tool design, accompanied
+ by personal motivation from the developer for each software project.
+ In addition to creating software, ancillary aims include:
+\end_layout
+
+\begin_layout Itemize
+Engage/encourage groups of people to work with text visualisation tools
+ in real scenarios.
+ 
+\end_layout
+
+\begin_layout Itemize
+Propose a methodology for the successful implementation of text visualisation
+ tools.
+ 
+\end_layout
+
+\begin_layout Itemize
+Help to identify cases in which text visualisation can be adopted and implemente
+d.
+\end_layout
+
+\begin_layout Section*
+D) Final Submission: 
+\end_layout
+
+\begin_layout Itemize
+Artifacts (75%).
+\end_layout
+
+\begin_layout Itemize
+Written Exegesis (25%).
+\end_layout
+
+\begin_layout Section*
+E) Supervisory Team Primary Supervisor: 
+\end_layout
+
+\begin_layout Itemize
+Supervisor: Dr Mitchell Whitelaw.
+\end_layout
+
+\begin_layout Itemize
+Secondary Supervisor: Dr Stephen Barrass.
+\end_layout
+
+\begin_layout Itemize
+NICTA Supervisor: Dr Wray Buntine.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+My research project is a creative production PhD which aims to develop several
+ text visualisation software tools and apply them to real world scenarios.
+ As set out below, data visualisation is a multidisciplinary field and the
+ Faculty of Arts and Design (FAD) at UC is an ideal place.
+ 
+\end_layout
+
+\begin_layout Standard
+My scholarship is kindly funded by the Machine Learning Research Group (MLRG)
+ at National Information and Communication Technology of Australia (NICTA).
+ The combination of FAD and MLRG allows me to draw on the expertise of artists,
+ writers and digital humanities researchers, as well as mathematicians,
+ statisticians and computer science researchers.
+ This context is as multidisciplinary as the research project is itself.
+\end_layout
+
+\begin_layout Standard
+The formal reasons for conducting a creative production research are: 
+\end_layout
+
+\begin_layout Enumerate
+My scholarship with the NICTA has a project agreement that defines a list
+ of milestones and deliverables with the project’s partner, UC (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Appendix"
+
+\end_inset
+
+).
+ The scholarship milestones and deliverables include a report on state-of-the-ar
+t text visualisation tools, software, and documentation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+My prior experience as an experimental software developer who, for the last
+ decade, have been coding free licensed software following a non-corporative
+ development model.
+ I try to participate only in applied and real world projects.
+ 
+\end_layout
+
+\begin_layout Standard
+Besides the main project aim —the creation of innovative software for text
+ visualisation— this project also explores the way in which the relationship
+ between the developer(s) and the client(s) can influence the software end
+ product.
+ It is a clear aim of this project to demonstrate a methodology that supports
+ and enables a productive relationship between software developer(s) and
+ client(s).
+ I present a formal explanation of the proposed methodology in  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Research-methodology,-methods"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Data as textual documents
+\end_layout
+
+\begin_layout Standard
+As the amount of data that is publicly available is expanding almost exponential
+ly the field of data visualisation itself is also rapidly developing.
+ Nowadays, seven out of the top ten universities, in the Times Higher Education
+ ranking (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "tsl_education_ltd._world_2012"
+
+\end_inset
+
+), have departments or research groups related to data visualisation.
+ Data visualisation has developed in a wide range of departments, such as
+ computer science, statistics, linguistics, graphical design, chemistry
+ physics, genetics, history.
+ Recently data visualisation has emerged as a distinct field in its own
+ right with masters programs and departments dedicated to it (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Top-universities-and"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+institution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+rank 2012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Department/Course
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+URL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Harvard University
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Broad Institute of Harvard and MIT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+http://www.broadinstitute.org/vis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Massachusetts Institute of Technology 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Broad Institute of Harvard and MIT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+http://www.broadinstitute.org/vis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+University of Cambridge 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Stanford University
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Stanford Vis Group
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+http://vis.stanford.edu/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+University of California, Berkeley 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+VisualizationLab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+http://vis.berkeley.edu/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+University of Oxford 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Visual Informatics Lab at Oxford
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+http://oxvii.wordpress.com/
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Princeton University 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+PrincetonVisLab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size tiny
+http://www.princeton.edu/researchcomputing/vis-lab
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+University of Tokyo 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+ University of California, Los Angeles 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+IDRE GIS and visualization
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+https://idre.ucla.edu/visualization
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Yale University 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Top-universities-and"
+
+\end_inset
+
+Top universities and data visualisation departments 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I refer to data types as the formats that data can have in order to be processed
+ for later representation.
+ In the visualisation process, data can be transformed several times before
+ it takes on the desired or required format according to the visualisation
+ technique used.
+ Here again there is no a single classification of kinds of data or data-types.
+ We are going to use Shneiderman’s classification (1996) called Task by
+ data Type Taxonomy (TTT) that divides data types in seven groups: 1-, 2-,
+ 3-dimensional, Temporal, Multi-dimensional, Tree and Network.
+ 
+\end_layout
+
+\begin_layout Itemize
+1-dimensional data: textual documents, program source code, alphabetical
+ lists, etc.
+\end_layout
+
+\begin_layout Itemize
+2-dimensional data: geographic maps, floorplants, newspaper layouts, 2-axes
+ diagrams, etc.
+\end_layout
+
+\begin_layout Itemize
+3-dimensional data: real world objects such as molecules, bodies, buildings,
+ etc.
+\end_layout
+
+\begin_layout Itemize
+Temporal data: all kinds of timelines.
+\end_layout
+
+\begin_layout Itemize
+Multi-dimensional data: most relational and statistical databases are convenient
+ly manipulated as multi-dimensional in which items with 
+\shape italic
+n
+\shape default
+ attributes become points in a 
+\shape italic
+n
+\shape default
+-dimensional space.
+\end_layout
+
+\begin_layout Itemize
+Tree data: collections of hierarchical data where each item (except the
+ root) links to a parent item.
+ For example: genealogical data, file systems trees, genetic data, etc.
+\end_layout
+
+\begin_layout Itemize
+Network data: any collection of items and their relationships, for example:
+ social relationships, computer networks, etc.
+\end_layout
+
+\begin_layout Standard
+This study focuses on visualisation tools applied to textual documents and
+ collections of textual documents.
+ According to Shneiderman’s classification, regular texts would be considered
+ 1-dimensional data.
+ A text is a sequential data that goes right-to-left or left-to-right and
+ line by line, top to bottom.
+ However a text can have multiple internal structures, e.g.
+ according to morphology it can have paragraphs, sentences and words.
+ According to the information structure, a text can be ordered by chapters,
+ parts, sections, subsections, etc.
+ If the text has a format like HTML, then it can be ordered by HTML tags,
+ like <body>, <div>, <p>, etc.
+ In those examples the text is transformed to a tree structure as a data
+ type.
+\end_layout
+
+\begin_layout Standard
+Text visualisation is not often typically considered as a subfield of data
+ visualisation.
+ Illinski (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "noah_iliinsky_choosing_2013"
+
+\end_inset
+
+) asserts that text cannot be considered as a data type.
+ Silić (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "silic_visualization_2010"
+
+\end_inset
+
+) says that “unstructured text is not suitable for visualisation”.
+ In fact, as mentioned above, most text visualisations transform the initial
+ unstructured textual data into a new structured and, usually, a reduced
+ dataset.
+ This new dataset is no longer a 1-dimension data type, but a categorical
+ or a network dataset.
+ And it can be represented with a wide range of tools not specific to natural
+ text representation (
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "hearst_search_2009"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "grobelnik_efficient_2002"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+The literature review (see next section) shows that text visualisation is
+ valid field and reveals some gaps providing a rich context for the project
+\end_layout
+
+\begin_layout Section
+Literature review Introduction
+\end_layout
+
+\begin_layout Standard
+As part of this research project, and as part of the deliverables agreement
+ with NICTA, last July (July 2013) I have published the document "How we
+ draw texts: a literature review on text visualisation tools".
+ This document has two parts: a report on the field of text visualisation:
+ origins, definitions, and challenges (first part).
+ And a literature review on text visualisation tools (second part).
+ I’m presenting here an adapted extract of it.
+\end_layout
+
+\begin_layout Standard
+As I often cite the document, I strongly recommend obtaining a copy of the
+ document.
+ 
+\end_layout
+
+\begin_layout Itemize
+The document can be accessed directly here: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://research.nualart.cat/JaumeNualart_2013-How_we_draw_texts.pdf
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Or in a Github repository: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/jaumet/myacademydata 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A visualisation/exploration tool of the reviewed cases made with AREA (Case
+ #25 in “How we draw texts” document) is accessible at: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://research.nualart.cat/vistexttools
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Since I could not find text visualisation literature reviews less than five
+ years old and the field changes so fast, I analysed all the cases I found
+ whilst endeavouring not to repeat concepts.
+ In case of repetition the older or the original case was taken.
+ This methodology ended up in forty-nine reviewed cases.
+\end_layout
+
+\begin_layout Standard
+The literature review document created will continue being revised during
+ the PhD research.
+ The accessible version is the first version and it will be a key tool in
+ shaping the research project developments.
+\end_layout
+
+\begin_layout Standard
+I am sure that my current literary review has not covered all the existing
+ ideas related to text visualisation.
+ Certainly data and text visualisation is a relatively new field, therefore
+ there is not a single consolidated list of dedicated publications and sources.
+ This presents a challenge in making a consistent review of the field.
+ Some of the cases we are presenting have been found in very specific publicatio
+ns; for example Joel Deshaye and Peter Stoicheff and their works on William
+ Faulkner’s visualisations (cases #11, #12 and #13).
+ Reading Stoicheff’s notes it can be seen that they developed the tools
+ just to assist in a specific study of William Faulkner’s narrative timelines.
+ There are no references to applications of these interesting ideas to other
+ texts, suggesting that more works remain hidden in the depths of other
+ fields.
+\end_layout
+
+\begin_layout Subsection
+Gaps and insights
+\end_layout
+
+\begin_layout Standard
+I considered two main aspects when reviewing the cases: the proposed visual
+ language used for each case, and the choice of the dataset.
+ By visual language I mean the concept and features of the representation,
+ its business, its advantages and limitations.
+ Most of the forty-nine cases (74.5%) are visualisation experiments with
+ limited real world scenario application.
+ Another point that I found remarkable is that cases older than five years
+ tend to go offline (42%) or only a static version is online, with no more
+ interaction (50%).
+ The research project aims are to fulfill the gap between experimentation
+ and interest and the implementation and consolidation of text visualisation
+ tools.
+\end_layout
+
+\begin_layout Standard
+Single text visualisation cases have mainly been developed for examining
+ literature.
+ Literature is an unstructured text; apart from complex combinations of
+ words it can have high levels of human abstraction and freedom of structures
+ and experimentation.
+ I contend that it is more effective to apply visualisation techniques used
+ to analyse literature to other kinds that have a more formal register and/or
+ predefined style, such as legal texts, scientific papers, template based
+ texts and communications, etc.
+\end_layout
+
+\begin_layout Standard
+According to my proposed classification of text visualisation tools (see
+ next subsection), I have found only one single/part text visualisation
+ case which is sequential (case #22 “Document Arc Diagrams” by Jeff Clark
+ (2007)).
+ Most part-text-visualisations extract the essence of the text based on
+ some criteria and the original sequence of the text is lost.
+ Since sequential visualisation tools have some advantages, it seems there
+ is room to develop part visualisation tools that maintain the original
+ text sequence.
+\end_layout
+
+\begin_layout Standard
+Text collection visualisations use methods that can be found in data visualisati
+on in general.
+ This idea invites experimentation in bringing more standard data visualisation
+ methods and tools to the specific text visualisation subfield.
+\end_layout
+
+\begin_layout Standard
+Collections of text aggregations is the category that has developed more
+ specific designs and ideas.
+ More work needs to be done in order to find some patterns in this kind
+ of visualisation.
+ 
+\end_layout
+
+\begin_layout Subsection
+Text visualisation tools: a proposed classification
+\end_layout
+
+\begin_layout Standard
+A remarkable challenge when doing the literature review was to suggest a
+ classification framework of the cases.
+ There is not a clear classification widely accepted or even established
+ as the standard.
+ So finally one of the first outputs of this research project is a proposed
+ classification tree for text visualisation tools.
+\end_layout
+
+\begin_layout Standard
+Since there are few papers that review text visualisation tools, I referenced
+ the classic Shneiderman data visualisation review (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "shneiderman_eyes_1996"
+
+\end_inset
+
+) as well as new ones ( 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "collins2009docuburst"
+
+\end_inset
+
+).
+ In these cases the classifications were based on tasks that the visualisation
+ tool can solve rather than on the explicit aspects of the visualisation.
+ This is why we decided to propose our own classification that, while far
+ from perfect, is hopefully a useful approach to a classification based
+ on visual features.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Subsubsection*
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Single-texts-visualization"
+
+\end_inset
+
+Single texts
+\end_layout
+
+\begin_layout Itemize
+Whole <-> Part
+\end_layout
+
+\begin_layout Itemize
+Sequential <-> Non sequential
+\end_layout
+
+\begin_layout Itemize
+Discourse structure <-> Syntactic structure 
+\end_layout
+
+\begin_layout Itemize
+Search				
+\end_layout
+
+\begin_layout Itemize
+Time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Subsubsection*
+Text collections
+\end_layout
+
+\begin_layout Itemize
+Items <-> Aggregations
+\end_layout
+
+\begin_layout Itemize
+Landscape
+\end_layout
+
+\begin_layout Itemize
+Search
+\end_layout
+
+\begin_layout Itemize
+Time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Proposed Text visualisation classification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The ground level of classification of text visualisation tools according
+ to the type of data has two categories:
+\end_layout
+
+\begin_layout Itemize
+Single texts: a single text is a sequence of words ordered according to
+ the hierarchy: document > paragraphs > sentences > other punctuation marks
+ (“:”.
+ “;”, “?”, “!”.
+ “,”) > words > syllable and phonemes.
+ In cases where the text is a book or other kind of structure, then, it
+ is possible to have more granularities including: chapters > sections >
+ subsections > ...
+ Also we assume the metadata of the text and other attached texts: title,
+ authors, publishers, copyright notes, acknowledgement, dedication, preface,
+ table of contents, forward, glossary, bibliography, index, etc.
+\end_layout
+
+\begin_layout Itemize
+Text collections: groups of texts in which each item is a clearly differentiable
+ entity.
+ Usually when talking about collections of texts, we talk about texts that
+ have some similarity, either in register, length, or structure.
+ All the cases we have reviewed are collections of the same kind of texts.
+ Heterogeneous collections of texts are also referenced in the literature
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "meeks_e._documents_2011"
+
+\end_inset
+
+), especially for a representative analysis of a field of knowledge, in
+ which cases the goal of the collection is to include the maximum variety
+ of expressions and a wide vocabulary.
+ In these cases the dataset is heterogeneous according to its structure
+ and register.
+\end_layout
+
+\begin_layout Standard
+Starting from these two differentiated kinds of visualisations, I have added
+ several subjective subdivisions to each case (see 
+\begin_inset Quotes eld
+\end_inset
+
+How we draw texts
+\begin_inset Quotes erd
+\end_inset
+
+ document).
+ The aims of this qualitative classification is to help describing and explainin
+g the reviewed cases, as well as to suggest key features of text visualisation
+ tools.
+\end_layout
+
+\begin_layout Standard
+For further information the presentation and definition of the classification
+ is in section 2.1 (p.
+ 18) of the document “How we draw texts: a literature review on text visualizati
+on tools“.
+\end_layout
+
+\begin_layout Section
+Research questions
+\end_layout
+
+\begin_layout Standard
+I present a main research question and two specific ones.
+\end_layout
+
+\begin_layout Subsection*
+Main question
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+How can we create text visualisation tools that are used in real scenarios?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To answer this question I will design, develop and implement software applied
+ to a number of real case scenarios, mainly in web environments.
+ The development model will be an artisanal software development.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Artisanal
+\shape default
+ in the sense of hael petit de cal erilndmade, taking care as if the project
+ were a personal project, feeling part of the project.
+ Living and assuming the project as a personal challenge.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Artisanal software
+\shape default
+ in the sense of open source, open techniques, handmade coding, and the
+ originality of the work, (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "schank_2009"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Artisanal software development
+\shape default
+ in the sense of a hyper customised project, A piece made step by step in
+ a non necessarily perfectly optimized working process.
+ An organic, and spontaneous-like project based in a non-corporate style
+ of working and influenced by creative labs, hackerspaces and free software
+ communities.
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "bernstein_2004"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Another choice is to work only in real world scenarios, makes the project
+ realistic in resources and in timing.
+ Obviously, limited time will affect the degree of project experimentation.
+ My position is to see this as an advantage.
+ If this project cannot create too experimental tools it is only because
+ one of its goals is to reach implementation in-production systems.
+\end_layout
+
+\begin_layout Standard
+The literature review presents good ideas on text visualisation, most of
+ them only experimental, with no real applications yet.
+ Here the challenge is to generate new implementations more than new concepts.
+ Despite that, of course, every project has its creative and experimental
+ parts.
+\end_layout
+
+\begin_layout Standard
+Since I will have freedom deciding which projects to develop, the ones in
+ which the development of the tool will be a new feature will have more
+ chances of been chosen.
+ This is because a new tool creates excitement and its implementation will
+ be likely seen for users.
+\end_layout
+
+\begin_layout Section
+Research methodology, methods and process 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Research-methodology,-methods"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I present a description of the general methodology and, afterwards, the
+ list of most important methods proposed linked to their disciplines.
+ Finally I present a diagram of the life-cycle development model and a comment
+ on the status of the research project ethics application.
+ 
+\end_layout
+
+\begin_layout Subsection
+General Methodology
+\end_layout
+
+\begin_layout Standard
+This is a multidisciplinary practice led research through practice (practice
+ as an element of the research design).
+ This concept is an adaptation of the classification that Frayling defines
+ in visual arts (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "frayling1993research"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+The methodology is based on the study and lessons learnt from a number of
+ text visualisation tools that will be developed as part of the project
+ artifacts.
+ Following Linda Candy (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "candy_practice-led_2006"
+
+\end_inset
+
+), since the main focus of this research is to advance knowledge about practice
+ and it seeks to learn about practice through making the artefacts it can
+ be considered a practice led research rather than a practice-based one,
+ where the contribution to knowledge is demonstrated through artefacts such
+ as images, music, designs, models, software.
+ For this reason the project cycle reword for each artifact’s development
+ is critical.
+ 
+\end_layout
+
+\begin_layout Standard
+The developments involve not only computer science knowledge, but team and
+ project management, and collaborative design.
+ Researchers and professionals from a wide range of disciplines will work
+ together, forming temporary teams of development.
+\end_layout
+
+\begin_layout Standard
+Several successful cases of data visualisation developments and software
+ development in general have influenced the chosen methodology for this
+ research project.
+ Through my endeavour to work with inspiring people, I am inspired, among
+ others, by: Moritz Stefaner: artist & developer that works as a freelance
+ from Germany (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "stefaner_m_2013"
+
+\end_inset
+
+), Stamen studio: maps specialists from L.A.
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "stamen_2013"
+
+\end_inset
+
+), And in general all kinds of hackerspaces and community labs.
+\end_layout
+
+\begin_layout Standard
+These examples share several characteristics:
+\end_layout
+
+\begin_layout Itemize
+Size is important:you can work effectively in small or very small teams
+ (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "nualart_2004"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Itemize
+Dialogue design: the project design is the result of the communication between
+ the developers team and the so-called customer.
+ Communication is critical in collaborative project.
+\end_layout
+
+\begin_layout Itemize
+Multidisciplinarity: the participants in each project come from a number
+ of backgrounds and/or skills.
+ There is always presence of people from science and humanities.
+ 
+\end_layout
+
+\begin_layout Itemize
+Freelance culture: they look more like a creative studio, arty, maybe hipster
+ than a computer systems corporation.
+\end_layout
+
+\begin_layout Standard
+Two more examples have inspired this project.
+ First: the way that education is evolving in Finland.
+ How important is the level of challenge in the motivation of students or
+ developers, and how the free knowledge way works better that the proprietary
+ one (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "salah_2012"
+
+\end_inset
+
+).
+ Second: William J Turkel and his great book “Programming Historian” (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "turkel2007programming"
+
+\end_inset
+
+).
+ Turkel is a digital humanities developer that shows cleverly how computing
+ can help humanities -historians- on managing and analysing data.
+ This is a touchable example of the unavoidable multidisciplinarity of nowadays
+ knowledge contribution.
+\end_layout
+
+\begin_layout Standard
+The analysis and the comparison of each developed case will be the base
+ to propose a concrete development methodology that can contribute to increase
+ the use of text visualisation tools in real case scenarios.
+\end_layout
+
+\begin_layout Subsection
+Specific Methods
+\end_layout
+
+\begin_layout Standard
+Methods used according to the disciplines related to each phase of the developme
+nt project are:
+\end_layout
+
+\begin_layout Enumerate
+Software engineering
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Free software development (GNU Manifesto (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "stallman1985gnu"
+
+\end_inset
+
+): this garanties the projects to be truly open and knowledge shareble ready
+ in an standard way.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Open to collaboration: version control software makes easy to include collaborat
+ors in coding projects, among other advantages, like working in multiple
+ places, multi editing files, side-tools for project management and documentatio
+n,etc.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Third party libraries: when appropriate, the incorporation of free licensed
+ third party libraries and external modules will speed up the project and
+ increase the quality and robustness of the code.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Humanities & creative arts: as a student of the Faculty of Arts & Design.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Reflective practice: the project is based on the continuous learning through
+ every development.
+ My previous experience in developing software will be taken as an advantage,
+ as it will be the experience rom collaborators.
+ I will conduct a reflective practice management in order to improve the
+ project during its development and my own skills as well (
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "schon1983reflective"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "brookfield1998critically"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+Graeme Sullivan’s braid metaphor methodology (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "sullivan2005"
+
+\end_inset
+
+): since this project is based in spontaneity and organic organization it
+ follows the Sullivan’s braid metaphor in which the project evolution is
+ based on questioning, exploring, analysing and discussing ideas.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Usability testing: due to the interface design and the user evaluation of
+ the tools.
+ The method selected will depend on the specificities of each development:
+ time and tool availability.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+User evaluation during development: think-aloud, interviews and/or questionnaire
+s.
+ 
+\end_layout
+
+\begin_layout Enumerate
+User evaluation at the end: automatise user actions record and/or questionnaires.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Machine learning & natural language processing: due to data transformations
+ made in most of the projects by collaborators, mainly researchers at Machine
+ Learning Research Group (MLRG) at NICTA.
+ Two scheduled methods are:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Text meaning extraction: with Dr.
+ Gabriela Ferraro.
+\end_layout
+
+\begin_layout Enumerate
+Text topic modeling: with Dr Wray Buntine (co-superviser of my PhD).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Case life-cycle
+\end_layout
+
+\begin_layout Standard
+The development life-cycle I propose is represented seenin Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Proposed-process-cycle"
+
+\end_inset
+
+.
+ I propose a nine steps timeline process.
+ 40% of the steps involving people (collaborators, clients, test users).
+ The rest involves only coders and computers.
+ The proposed life-cycle follows the standard waterfall model.
+ and not that much the Spiral model.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename IMAGES/methodology1.png
+	lyxscale 30
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Proposed-process-cycle"
+
+\end_inset
+
+process cycle for the development of the software artifacts of this research
+ project.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Research project ethics
+\end_layout
+
+\begin_layout Standard
+I will apply to the ethics committee because the evaluation tests involve
+ users.
+ Since I’m not improving an existing visual method, but introducing a tool
+ where none was used.
+ It will not be necessary to measure the usability of the tool, but to validate
+ that the initial requirements for each development have been accomplished.
+\end_layout
+
+\begin_layout Standard
+Ethics application it’s being prepared at the time of the publication of
+ this text.
+ NICTA committee has assessed the ethics risks of the research proposal
+ as negligible risk.
+ Next step will be to apply to the UC Ethics committee.
+\end_layout
+
+\begin_layout Section
+Timeline
+\end_layout
+
+\begin_layout Itemize
+2013
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+1st semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Jan-Jun: attended HDR-UC Seminars (writing, research methodologies,etc).
+ 
+\end_layout
+
+\begin_layout Itemize
+Mar 20th-23th: Presentation “Data visualisation tools” at Machine Learning
+ Research Group yearly meeting (Kyoloa NSW).
+\end_layout
+
+\begin_layout Itemize
+Jul: Paper published in peer-review open access journal Information Research
+ (
+\begin_inset CommandInset citation
+LatexCommand citeauthor
+key "nualart_texty_2013"
+
+\end_inset
+
+, 2013).
+\end_layout
+
+\begin_layout Itemize
+May 16th: UC-HDR lecturer in the seminar: Introduction to LyX 
+\end_layout
+
+\begin_layout Itemize
+Mar-Jul: How we draw texts: a literature review on text visualization tools
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2nd semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+May-Oct: PhD software development (I), Visference, sofware development at
+ NICTA as part of the practice based PhD: Visference.
+\end_layout
+
+\begin_layout Itemize
+Sep: Annual Progress Report
+\end_layout
+
+\begin_layout Itemize
+Aug-Oct: Research proposal.
+\end_layout
+
+\begin_layout Itemize
+1st Oct: Confirmation seminar.
+\end_layout
+
+\begin_layout Itemize
+Nov: release of Visference.
+ Reserach proposal.
+\end_layout
+
+\begin_layout Itemize
+Jul-Des: PhD software development (II), 
+\end_layout
+
+\begin_layout Itemize
+Oct-Dec: AREA applied to the open access journal Information Research.
+ Outputs: software to explore the papers of the journal.
+ 
+\end_layout
+
+\begin_layout Itemize
+Aug-Des: PhD software development (III), UClaims, software development with
+ NICTA and Lens.org about one-patent visualisation + paper/conference.
+\end_layout
+
+\begin_layout Itemize
+Submit  ethics application 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+2014
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+3rd semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aug-Feb: PhD software development (IV), Treebars for patents exploration.
+ Outputs: software development with NICTA/Lens + paper/conference.
+\end_layout
+
+\begin_layout Itemize
+Write/compile notes of the I, II and III developments for the exegesis.
+\end_layout
+
+\begin_layout Itemize
+User evaluation of AREA software (II).
+\end_layout
+
+\begin_layout Itemize
+Jan-April: submit/review AREA paper.
+\end_layout
+
+\begin_layout Itemize
+User evaluation for the developments III, IV.
+\end_layout
+
+\begin_layout Itemize
+Write & submit Patents paper 
+\end_layout
+
+\begin_layout Itemize
+Submit to conferences (not decided yet) 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+4th semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Annual Progress Report.
+\end_layout
+
+\begin_layout Itemize
+Doctoral Work­ing­ Progress Seminar.
+\end_layout
+
+\begin_layout Itemize
+Write/compile notes of the IV developments for the exegesis.
+\end_layout
+
+\begin_layout Itemize
+User evaluation for the development I.
+ 
+\end_layout
+
+\begin_layout Itemize
+PhD software development (V) (not decided yet).
+\end_layout
+
+\begin_layout Itemize
+Conferences presentations (not decided yet).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+2015
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+5th semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+User evaluation for the development V.
+\end_layout
+
+\begin_layout Itemize
+First exegesis draft.
+\end_layout
+
+\begin_layout Itemize
+Conferences presentations (not decided yet).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+6th semester
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Annual Progress Report.
+\end_layout
+
+\begin_layout Itemize
+PhD administrative work.
+\end_layout
+
+\begin_layout Itemize
+Final submission of exegesis.
+\end_layout
+
+\begin_layout Itemize
+Verify that developed software are online and accessible.
+\end_layout
+
+\begin_layout Itemize
+Final Seminar.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Bibliography
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "JNualart-2013-HowWeDrawTexts-AND-Res-Proposal"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Appendix"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+7.1 NICTA scholarship milestones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Confirmation-Seminar/images/NICTA-Millestones.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+NICTA milestones and deliverables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
