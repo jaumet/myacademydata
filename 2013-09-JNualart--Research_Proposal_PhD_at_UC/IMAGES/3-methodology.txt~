@@ -1,0 +1,52 @@
+3. Research methodology, methods or process: What will you do? How will you do it?
+
+[3Q1] What will you do?
+[3Q2] How will you do it?
+
+[3W1] to indicate the theories and principles underlying the approaches to be adopted in the research.
+[3W2] to outline the methods which will be used for achieving the research objectives.
+[3W3] to highlight any ethical issues or dimensions raised by the research methods or process.
+[4W4] to indicate the sources of data to be used and how these will be collected and analysed.
+
+[3C1] There must be a coherent link between the methods proposed for the study and the research objectives and questions.
+[3C2] If your research involves human or animals, you need to indicate that you are aware of this and will seek approval of a UC Ethics Committee. See http://www.canberra.edu.au/ucresearch/ethics.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+My outline:
+3.1- Practice-based methodologies
+3.2- Software engineering methodologies
+3.3- Artisan software development methodologies: definitions, examples. 
+     Main differences with commercial development way
+     
+	- Relationship developer-project-client.
+	- Win-win scenario. List the interests from the developer in bringing the project to a happy end.
+	- No money involved: pure research
+	- Teams size (dev and client). Big fish wants to work with big fish
+3.4- Development process (diagram + ) 
+
+3.5- Evaluation
+	- Define what needs to be evaluated
+	- Tests during development (5 users) to find mistakes and unclear points
+		* Online survey ater using the tool
+	- Define the methods used:
+		* Interviews + qualitative analysis
+		* Thinking alloud + quaLitative analysis + critical view
+		* User actions recording + quaNTitative analysis
+
+------------------------------------------------------------
+
+practice-based methodology: Social Development of Software [SDoS]
+Arbor scientiae (Ramon Llull) diagram (See image at the end)
+JUSTIFY WHY THIS IS THE BEST METHODOLOGY!! COMPARED TO OTHERS, PROS AND CONS.
+-> READ: Bill Mogridge “Designing Interactions” IDEO
+-> EXAMPLES OF SUCCESFUL METHODS IN DATA VIS WORLD: stefaner, stamen, bestiario etc etc similar method as the one I propose here(!?)
+-> Mark Bernstein: NeoVictorian Computing http://www.markbernstein.org/NeoVictorian.html
+-> In corporative, SAP or ORACLE put people working in the customer company for a while.....
+-> AGILE for example is not espontaneous.
+->  William J Turkel - the Programming Historian - DH developer
+-> Graduate students in Finland solve real problems beyond the classroom: https://opensource.com/education/12/10/graduate-students-finland-solve-real-problems
+-> Don’t be a Coder, Engineer, or Developer: be a Software Artisan! http://designbygravity.wordpress.com/2009/10/03/dont-be-a-coder-engineer-or-developer-be-a-software-artisan/
+-> Marian Doert: Dissertation + pivotpaths
+-> The book: research methodologies, innovations and philosophies in software systems engineering and information systems.
+
+

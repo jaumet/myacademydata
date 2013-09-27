@@ -1,0 +1,126 @@
+1. Introduction: What is it about?
+[1W1] to establish the field of the research
+[1W2] to establish the topic within that field
+[1W3] to introduce the particular focus of interest in that topic
+[1W4] to indicate broadly the nature of present understanding within the topic area
+[1W5] to make the importance of the potential contribution clear at the outset – not what will be found but why answering questions about the topic matter.
+
+[1C1} Your introduction to the proposal is critical in indicating that the topic within the field you are researching is of interest – that is, you are interested and others too, whether other researchers, practitioners, employers, etc.
+
+[1C2} Your introduction is also a place where you can begin to define the more specific parameters within the topic area – with the introduction moving from more general to gradually more specific within the topic area.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+About the research project
+
+Australia and UK are pioneers in so-called practice based and practice-led research in
+several official Master and PhD degrees programs (Candy and Studios 2006), especially
+in a wide range of humanities studies; from creative writing to performance, exhibitions,
+cinema, art craft and painting (Webb [2012]).
+
+My research project is about developing several visualization tools applied to real scenarios. As we will explain later, data visualization is a multidisciplinar field and the Faculty of Arts and Design at UC is becoming more and more a multidisciplinar space were people from very different knowledges backgruonds can be found attending the same seminars.
+
+The formal reasons for conducting a creative production research are:
+
+1. I have a scholarship with the National Information and Communica-
+tion Technology of Australia (NICTA). The scholarship has a project agreement
+that defines a list of milestones and deliverables with the project’s partner, UC
+(see B.1). The scholarship’s milestones and deliverables include a report on state-
+of-the-art text visualization tools, software, and documentation.
+
+2. I use to be an experimental software developer who, for the last decade, have
+been coding free licensed software.
+
+3. The researcher already has productive experience using the proposed methodology.
+
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+[1W1] to establish the field of the research
+
+
+Since more and more data is publicly accessible the field of data visualization grows up. Nowadays, seven out of top the ten universities, in the Times Higher Education ranking (XXXX TSL Education Ltd. [2012]), have departments or research groups related to data visualization. Data visualization has developed in a wide range of departments, from computer science or statistics to linguistics or graphical design, and from chemistry or physics to genetics or history. Recently data visualization has emerged as a distinct field, with masters programs and departments dedicated to it (XXXX see table 1.1).
+
+This project is about generating data visualization tools applied to real scenarios. As the deliverable artifacts, the research project will deploy a handfull of data visualization applications. Besides that, the project explores how the relationship between the developer part and the client-like part can influence the result of the project. In this sense, the project supports and practices a solid relationship between developers and the people's project, and the project itself. Both parts having interests in, successfully, bringing the project to the end. I present a formal explanation of the methodology in section XXXX.
+
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+[1W2] to establish the topic within that field
+
+Data as textual documents
+
+Acording to the types of data, data visualization is too wide field. 
+Here we refer to data types as the formats that data can have in order to be processed for later representation. In the visualization process, data can be transformed several times before it takes on the desired or required format according to the visualization technique used. Here again there is no a single classification of kinds of data or data-types. We are going to use Shneiderman’s classification (1996) called Task by data Type Taxonomy (TTT) that divides data types in seven groups: 1-, 2-, 3-dimansional, Temporal, Multi-dimensional, Tree and Network. 
+• 1-dimensional data: textual documents, program source code, alphabetical lists, etc.
+• 2-dimensional data: geographic maps, floorplants, newspaper layouts, 2-axes diagrams, etc.
+• 3-dimansional data: real world objects such as molecules, bodies, buildings, etc. 
+• Temporal data: all kinds of timelines.
+• Multi-dimensional data: most relational and statistical databases are conveniently manipulated as multi-dimensional in which items with n attributes become points in a n-dimensional space.
+• Tree data: collections of hierarchical data where each item (except the root) links to a parent item. For example: genealogical data, file systems trees, genetic data, etc.
+• Network data: any collection of items and their relationships. For example: social relationships, computer networks, etc.
+
+This study focuses on visualization tools applied to textual documents. According to Shneiderman’s classification, regular texts would be considered 1-dimensional data. A text is a sequential data that goes right-to-left or left-to-right and line by line, top to bottom. However a text can have multiple internal structures, e.g. according to morphology it can have paragraphs, sentences and words. According to the information structure, a text can be ordered by chapters, parts, sections, subsections, etc. If the text has a format like HTML, then it can be ordered by HTML tags, like body, div, paragraphs, etc. In those examples the text has a tree structure as a data type.
+
+Sometimes, text visualization is not widely considered as a subfield of data visualization. Illinski (XXXX 2013) asserts that text cannot be considered as a data type. Silic (XXX 2010) says that “unstructured text is not suitable for visualization”. In fact, as mentioned above, most text visualizations transform the initial “unstructured” textual data into a new structured and reduced dataset. This new dataset is no longer a 1-dimension data type, but a categorical or a network dataset. And it can be represented with a wide range of tools not specific to natural text representation (XXXX Hearst, 2009, Grobelnik and Mladenic, 2002).
+
+The analysis of texts is a key field for text visualization. In the next subsection we give a brief commentary on this field and its relationship with this work.
+
+Text analysis
+
+Text analysis, almost synonymous with text mining, (Feldman and Sanger 2006) is an interdisciplinary field that includes information retrieval, data mining, machine learning, statistics, linguistics and natural language processing. According to M. Hearst (Hearst, M. 2003) in text mining, the goal is to discover heretofore unknown information, something that no one yet knows and so could not have yet written down. Text mining is a subfield of data mining whose typical applications, among others, are to analyze or compare literary texts, analyze biological and genomics data sequences or, more recently, discover patterns in customers behavior or discover fraud in the use of credit cards. Hearst differentiates this case from the information extraction operations, like the extraction of people’s names, addresses or job skills. This later task can be done with 80% of accuracy, but the first task, the full interpretation of natural language by a computer program, again following Hearst, looks like will not be possible for “a very long time”.
+Following the classification of Keim (2008) texts can be analyzed on different levels of abstraction:
+• Statistical level (e.g. frequencies of words, average sentence length, number of tokens or types, etc.)
+• Structural level (structural components of a document, such as header, footer, title, abstract, etc.)
+• Syntactical level (principles and rules for constructing sentences)
+• Semantic level (linguistic meaning)
+• Pragmatic level (meaning in context; consequence for actions)
+
+In order to study visualization tools for texts it is as important to follow the literature of visualization tools as well as the literature of text analysis. The two fields are importantly interrelated. On one hand, the output of the text analysis can limit the possibilities of the visual presentation and their interactions. 
+
+
+
+~~~~~~~~~~~~~~~~~~~~
+
+
+
+[1W3] to introduce the particular focus of interest in that topic
+
+There is long time that we are not able to read all the texts that we have infront of us everyday. Most of the times we don't need to read a text, and we only want to extract a concrete piece of information from a longer text. There are people that wants to check thousands or milions of texts and would be impossible without the use of computers and all kinds of hardware readers. In this direction, when dealing with texts, text visualization can contribute to speed up tasks, discover new kinds of patterns in the data, and give a data bird-view overview. 
+
+For this reasons, this research project will accept developments related to the work with texts.
+
+~~~~~~~~~~~~~~~~~~~~
+
+[1W4] to indicate broadly the nature of present understanding within the topic area
+
+Nowadays, data visualization techniques are not broadly used. Some of the main media corporations (NYTimes, The Guardian, ...), daily, publish  a growing amount of data visualization impacts. Despite that, visualization is rarely used in daily tasks -like search engines, archives, libraries, and databases exploration and search (XXXX). The result of this is a gap and a challenge in the creation of visualization tools to be inntegrated in daily tasks.
+
+~~~~~~~~~~~~~~~~~~~~
+[1W5] to make the importance of the potential contribution clear at the outset – not what will be found but why answering questions about the topic matter.
+
+
+~~~~~~~~~~~~~~~~~~~~
+[1C1} Your introduction to the proposal is critical in indicating that the topic within the field you are researching is of interest – that is, you are interested and others too, whether other researchers, practitioners, employers, etc.
+
+
+~~~~~~~~~~~~~~~~~~~~
+[1C2} Your introduction is also a place where you can begin to define the more specific parameters within the topic area – with the introduction moving from more general to gradually more specific within the topic area.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- It is about to show that data visualization/exploration should be more used that it is.
+
+- NOTE: what about data interactive tools?? Or Data Visually Interactive tools?? 
+	[Interactive in re to data-tool, not necessarily tool-human]
+	REF: Dietmar Offenhuber “Visual Anecdote” [2010]
+
+- Demonstrate this with specially designed and developed software applied to real cases and incorporated/adopted for real projects (mainly in web environments)
+
+- The research focus on cases where the work with texts or collections of texts sre the main challenges, in terms of data visualization-exploration.
+PRACTICAL AND APPLIED VISUAL EXPLORATION OF TEXT COLLECTIONS
+
+
