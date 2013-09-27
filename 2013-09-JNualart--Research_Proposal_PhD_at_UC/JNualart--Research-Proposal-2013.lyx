@@ -1405,7 +1405,22 @@ How can we create text visualisation tools that are used in real scenarios?
 \begin_layout Standard
 To answer this question I will design, develop and implement software applied
  to a number of real case scenarios, mainly in web environments.
- The development model will be an artisanal software development.
+ The development style will be an artisanal software development.
+ I use this term inspired by Christopher Schanck (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Atzenbeck:2008:IMB:1377501.1377505"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citealt
+key "schank_2009"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1413,8 +1428,8 @@ To answer this question I will design, develop and implement software applied
 \shape italic
 Artisanal
 \shape default
- in the sense of hael petit de cal erilndmade, taking care as if the project
- were a personal project, feeling part of the project.
+ in the sense of handmade, taking care as if the project were a personal
+ project, feeling part of the project.
  Living and assuming the project as a personal challenge.
 \end_layout
 
@@ -1424,14 +1439,7 @@ Artisanal
 Artisanal software
 \shape default
  in the sense of open source, open techniques, handmade coding, and the
- originality of the work, (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "schank_2009"
-
-\end_inset
-
-)
+ originality of the work, 
 \end_layout
 
 \begin_layout Standard
@@ -1626,8 +1634,7 @@ key "turkel2007programming"
 ).
  Turkel is a digital humanities developer that shows cleverly how computing
  can help humanities -historians- on managing and analysing data.
- This is a touchable example of the unavoidable multidisciplinarity of nowadays
- knowledge contribution.
+ This is a tangible example of the unavoidable multidisciplinarity of knowledge.
 \end_layout
 
 \begin_layout Standard
@@ -1651,14 +1658,14 @@ Software engineering
 
 \begin_deeper
 \begin_layout Enumerate
-Free software development (GNU Manifesto (
+Free software development (GNU Manifesto, 
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "stallman1985gnu"
 
 \end_inset
 
-): this garanties the projects to be truly open and knowledge shareble ready
+): this garantees the projects to be truly open and knowledge shareble ready
  in an standard way.
  
 \end_layout
@@ -1684,10 +1691,10 @@ Humanities & creative arts: as a student of the Faculty of Arts & Design.
 
 \begin_deeper
 \begin_layout Enumerate
-Reflective practice: the project is based on the continuous learning through
+Reflective practice: the project is based on continuous learning through
  every development.
  My previous experience in developing software will be taken as an advantage,
- as it will be the experience rom collaborators.
+ as well as the experience of collaborators.
  I will conduct a reflective practice management in order to improve the
  project during its development and my own skills as well (
 \begin_inset CommandInset citation
@@ -1741,20 +1748,21 @@ User evaluation at the end: automatise user actions record and/or questionnaires
 
 \end_deeper
 \begin_layout Enumerate
-Machine learning & natural language processing: due to data transformations
- made in most of the projects by collaborators, mainly researchers at Machine
- Learning Research Group (MLRG) at NICTA.
+Machine Learning & Natural Language Processing: usually visualization projects
+ requires data transformations.
+ For state-of-the-art data transformations I will work with collaborators,
+ mainly researchers at Machine Learning Research Group (MLRG) at NICTA.
  Two scheduled methods are:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-Text meaning extraction: with Dr.
- Gabriela Ferraro.
+Text meaning extraction & text summarise: with Dr.
+ Gabriela Ferraro (NICTA).
 \end_layout
 
 \begin_layout Enumerate
-Text topic modeling: with Dr Wray Buntine (co-superviser of my PhD).
+Text topic modeling: with Dr Wray Buntine (NICTA), co-supervisor of my PhD.
 \end_layout
 
 \end_deeper
@@ -1772,10 +1780,31 @@ reference "fig:Proposed-process-cycle"
 
 .
  I propose a nine steps timeline process.
- 40% of the steps involving people (collaborators, clients, test users).
+ 40% of the steps involve people (collaborators, clients, test users).
  The rest involves only coders and computers.
  The proposed life-cycle follows the standard waterfall model.
- and not that much the Spiral model.
+ It is a sequential design process, in which the progress is a linear list
+ of steps that includes Conception, Initiation, Analysis, Design, Construction,
+ Testing, Production/Implementation, and Maintenance.
+ Waterfall model criticism is about the inflexibility and difficulty integrating
+ unforeseen tasks and it advocates for more modern models, like Agile, Spiral
+ and Iterative and incremental development model.
+ Waterfall works well for smaller projects where requirements are very well
+ understood (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "istob_2013"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "amlani2012advantages"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -1831,14 +1860,14 @@ Research project ethics
 I will apply to the ethics committee because the evaluation tests involve
  users.
  Since I’m not improving an existing visual method, but introducing a tool
- where none was used.
- It will not be necessary to measure the usability of the tool, but to validate
- that the initial requirements for each development have been accomplished.
+ where none was used, it will not be necessary to measure the usability
+ of the tool, but to validate that the initial requirements for each development
+ have been accomplished.
 \end_layout
 
 \begin_layout Standard
-Ethics application it’s being prepared at the time of the publication of
- this text.
+Ethics application is being prepared at the time of the publication of this
+ text.
  NICTA committee has assessed the ethics risks of the research proposal
  as negligible risk.
  Next step will be to apply to the UC Ethics committee.
