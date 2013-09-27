@@ -658,7 +658,7 @@ reference "tab:Top-universities-and"
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -3271,7 +3271,7 @@ name "sub:Single-texts-visualization"
 
 \end_inset
 
-Single texts visualization
+Single texts
 \end_layout
 
 \begin_layout Itemize
