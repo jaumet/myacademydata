@@ -253,7 +253,7 @@ t text visualisation tools, software, and documentation.
 
 \begin_layout Enumerate
 My prior experience as an experimental software developer who, for the last
- decade, have been coding free licensed software following a non-corporative
+ decade, has been coding free licensed software following a non-corporative
  development model.
  I try to participate only in applied and real world projects.
  
@@ -975,7 +975,7 @@ key "grobelnik_efficient_2002"
 
 \begin_layout Standard
 The literature review (see next section) shows that text visualisation is
- valid field and reveals some gaps providing a rich context for the project
+ valid field and reveals some gaps providing a rich context for the project.
 \end_layout
 
 \begin_layout Section
@@ -1032,11 +1032,11 @@ https://github.com/jaumet/myacademydata
 A visualisation/exploration tool of the reviewed cases made with AREA (Case
  #25 in “How we draw texts” document) is accessible at: 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-http://research.nualart.cat/vistexttools
+http://research.nualart.cat/texvisttools
 \end_layout
 
 \end_inset
@@ -1762,7 +1762,7 @@ Case life-cycle
 \end_layout
 
 \begin_layout Standard
-The development life-cycle I propose is represented seenin Figure 
+The development life-cycle I propose is represented in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Proposed-process-cycle"
