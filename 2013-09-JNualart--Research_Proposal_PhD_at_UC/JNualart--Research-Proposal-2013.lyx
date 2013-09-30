@@ -1406,14 +1406,21 @@ How can we create text visualisation tools that are used in real scenarios?
 To answer this question I will design, develop and implement software applied
  to a number of real case scenarios, mainly in web environments.
  The development style will be an artisanal software development.
- I use this term inspired by Christopher Schanck (
+ I use this term inspired by Mark Bernstein (
+\begin_inset CommandInset citation
+LatexCommand citeyear
+key "bernstein_2004"
+
+\end_inset
+
+, 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "Atzenbeck:2008:IMB:1377501.1377505"
 
 \end_inset
 
-, 
+) and Christopher Schanck (
 \begin_inset CommandInset citation
 LatexCommand citealt
 key "schank_2009"
@@ -1439,7 +1446,7 @@ Artisanal
 Artisanal software
 \shape default
  in the sense of open source, open techniques, handmade coding, and the
- originality of the work, 
+ originality of the work.
 \end_layout
 
 \begin_layout Standard
@@ -1452,14 +1459,6 @@ Artisanal software development
  An organic, and spontaneous-like project based in a non-corporate style
  of working and influenced by creative labs, hackerspaces and free software
  communities.
- (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "bernstein_2004"
-
-\end_inset
-
-).
 \end_layout
 
 \begin_layout Standard
@@ -1582,15 +1581,7 @@ These examples share several characteristics:
 \end_layout
 
 \begin_layout Itemize
-Size is important:you can work effectively in small or very small teams
- (
-\begin_inset CommandInset citation
-LatexCommand citealt
-key "nualart_2004"
-
-\end_inset
-
-) 
+Size is important:you can work effectively in small or very small teams.
 \end_layout
 
 \begin_layout Itemize
