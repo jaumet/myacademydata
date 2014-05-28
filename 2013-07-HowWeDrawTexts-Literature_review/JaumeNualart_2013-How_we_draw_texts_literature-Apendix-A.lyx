@@ -1,0 +1,4303 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrreprt
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman ae
+\font_sans lmss
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\use_refstyle 1
+\notefontcolor #fd4b0f
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+APPENDIX of How we draw texts
+\end_layout
+
+\begin_layout Subtitle
+A literature review on text visualization tools
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size tiny
+This work is licensed under a 
+\begin_inset CommandInset href
+LatexCommand href
+name "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+target "http://creativecommons.org/licenses/by-sa/3.0/"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+APPENDIX
+\end_layout
+
+\begin_layout Section
+Single text visualization
+\end_layout
+
+\begin_layout Subsection
+Whole text visualization
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+1
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:1Novel-Views:-Les-1"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Novel Views: Les Misérables - 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:1Novel-Views:-Les"
+
+\end_inset
+
+Radial Word Connections by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: Novel "Les Misérables" 
+\end_layout
+
+\begin_layout Itemize
+method: Radial text-line
+\end_layout
+
+\begin_layout Itemize
+description: "A word used in multiple places in a text can be interpreted
+ as a connection between those locations.
+ Depending on the word itself the connection could be in terms of character,
+ setting, activity, mood, or other aspects of the text."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/NovelViews.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/radial.png
+	lyxscale 20
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Novel Views: Les Misérables - Radial Word Connections by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+2
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:2Novel-Views:-Les"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Novel Views: Les Misérables - Character Mentions by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: Novel "Les Misérables".
+\end_layout
+
+\begin_layout Itemize
+method: Horizontal multi text-line.
+\end_layout
+
+\begin_layout Itemize
+description: "it shows where the names of the primary characters are mentioned
+ within the text.
+ Click on any of these images to see larger versions."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/NovelViews.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/mentions.png
+	lyxscale 20
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Novel Views: Les Misérables - Character Mentions by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+3
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:3Poem-Viewer--"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Poem Viewer - (on process) 2013 project Imagery Lens for Visualizing Text
+ Corpora - Oxford e-Research Centre at the University of Oxford by Katharine
+ Coles, Min Chen, Alfie Abdul-Rahman, Chris Johnson, Julie Lein, Eamonn
+ Maguire, Miriah Meyer, and Martin Wynne.
+ (2013)
+\end_layout
+
+\begin_layout Itemize
+data: Poems.
+\end_layout
+
+\begin_layout Itemize
+method: Advanced Text-line.
+\end_layout
+
+\begin_layout Itemize
+description: Poem Viewer is an experimental service for the exploration
+ and analysis of poetry through visualization.
+ Poem Viewer is part of an on-going research project and is currently a
+ work in progress.
+ 
+\end_layout
+
+\begin_layout Standard
+[http://ovii.oerc.ox.ac.uk/PoemVis/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/poemviewr.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Poem Viewer - (on process) 2013 project Imagery Lens for Visualizing Text
+ Corpora - Oxford e-Research Centre at the University of Oxford by Katharine
+ Coles, Min Chen, Alfie Abdul-Rahman, Chris Johnson, Julie Lein, Eamonn
+ Maguire, Miriah Meyer, and Martin Wynne.
+ (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+4
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:4State-of-the"
+
+\end_inset
+
+\SpecialChar \menuseparator
+State of the Union 2011 - Sentence Bar Diagrams by Jeff Clark (2011)
+\end_layout
+
+\begin_layout Itemize
+data: Speech to text.
+ Obama's State of the Union speech 2011 [N/A]
+\end_layout
+
+\begin_layout Itemize
+method: Sentence Bar Diagrams.
+\end_layout
+
+\begin_layout Itemize
+description: "First we have two Sentence Bar Diagrams for the speeches from
+ 2010 and 2011.
+ Sentence Bar diagrams use color coding to show the topic of the various
+ sentences in the text and bar length to show how long the sentences are."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2011/SOTU2011.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/stateoftheunion.png
+	lyxscale 50
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+State of the Union 2011 - Sentence Bar Diagrams by Jeff Clark (2011)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+5
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:5Visualizing-Lexical-Novelty"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Visualizing Lexical Novelty in Literature by Matthew Hurst (2011)
+\end_layout
+
+\begin_layout Itemize
+data: Literature 
+\end_layout
+
+\begin_layout Itemize
+method: Original pixel-block method
+\end_layout
+
+\begin_layout Itemize
+description: Tracking the introduction of new terms in a novel.
+ In the visualization each column represents a chapter and each small block
+ a paragraph of text.
+ The color of the block indicates the % of new words.
+ It is not clear what is the utility of this tool; an specialist in linguistics
+ could say how this visualization can be used.
+ 
+\end_layout
+
+\begin_layout Standard
+[http://datamining.typepad.com/data_mining/2011/09/visualizing-lexical-novelty-in-
+literature.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/novelty.png
+	lyxscale 50
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Visualizing Lexical Novelty in Literature by Matthew Hurst (2011)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+6
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:6On-the-Origin"
+
+\end_inset
+
+\SpecialChar \menuseparator
+On the Origin of Species: The Preservation of Favoured Traces by Ben Fry
+ (2009)
+\end_layout
+
+\begin_layout Itemize
+data: All the versions of Darwin's On the Origin of Species Book.
+\end_layout
+
+\begin_layout Itemize
+method: Matrix of pixel-blocks representing all the text in chunks.
+ Colors are used to show each edition additions.
+\end_layout
+
+\begin_layout Itemize
+description: We often think of scientific ideas, such as Darwin's theory
+ of evolution, as fixed notions that are accepted as finished.
+ In fact, Darwin's On the Origin of Species evolved over the course of several
+ editions he wrote, edited, and updated during his lifetime.
+ The first English edition was approximately 150,000 words and the sixth
+ is a much larger 190,000 words.
+ In the changes are refinements and shifts in ideas whether increasing the
+ weight of a statement, adding details, or even a change in the idea itself.
+\end_layout
+
+\begin_layout Standard
+[http://benfry.com/traces/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/traces.png
+	lyxscale 40
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+On the Origin of Species: The Preservation of Favoured Traces by Ben Fry
+ (2009)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+7
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:7Texty,-a-visualization"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Texty, a visualization tool to aid selection of texts from search outputs
+ by Jaume Nualart (2008)
+\end_layout
+
+\begin_layout Itemize
+data: Ars Electronica Jury Statements (from 1987 to 2007)
+\end_layout
+
+\begin_layout Itemize
+method: Iconic representation of a text
+\end_layout
+
+\begin_layout Itemize
+description: a Texty is an image, an icon that represents the physical distribut
+ion of keywords of a text as a flat image.
+ These keywords are grouped in vocabularies, to each of which a color is
+ linked.
+ Texty reveals, the structure, conceptual density and subject matter of
+ a text.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Nualart, J.
+ Pérez-Montoro, M (2013).
+ "Texty, a visualization tool to aid selection of texts from search outputs"
+ Information Research.
+\end_layout
+
+\begin_layout Standard
+[http://vis.mediaartresearch.at/textass/texty.php]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/texty1.png
+	lyxscale 50
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Detail of four textys showing texts and the legend from Ars Electronica
+ Jury Statements (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+8
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:8Bible-Cross-References-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Bible Cross-References by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: Bible [Large dataset] 
+\end_layout
+
+\begin_layout Itemize
+method: Arc graph + bar graph 
+\end_layout
+
+\begin_layout Itemize
+description: "The bar graph that runs along the bottom represents all of
+ the chapters in the Bible.
+ Books alternate in color between white and light gray.
+ The length of each bar denotes the number of verses in the chapter.
+ Each of the 63,779 cross references found in the Bible is depicted by a
+ single arc - the color corresponds to the distance between the two chapters,
+ creating a rainbow-like effect."
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/BibleViz]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/biblereferences.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Bible Cross-References by Chris Harrison (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+9
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:9Literature-fingerprint-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Literature fingerprint by Daniel A.
+ Keim and Daniela Oelke (2007) 
+\end_layout
+
+\begin_layout Itemize
+data: Any text, from middle to long
+\end_layout
+
+\begin_layout Itemize
+method: Colored squares representing elements of a text in a sequencial
+ way.
+\end_layout
+
+\begin_layout Itemize
+description: Colored squares representing elements of a text in a sequencial
+ way.
+ Description/Comments: the authors develop visualization techniques to show
+ the results of some linguistic analysis that represent a literature fingerprint
+, demonstrating text authorship.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Keim D.
+ A.
+ & Oelke D.
+ (2007).
+ Literature Fingerprinting: A New Method for Visual Literary Analysis.
+ In: Proceedings of the 2007 IEEE Symposium on Visual Analytics Science
+ and Technology (VAST '07).
+ IEEE Computer Society, Washington, DC, USA, 115-122.
+ DOI=10.1109/VAST.2007.4389004 http://dx.doi.org/10.1109/VAST.2007.4389004
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://bib.dbvis.de/uploadedFiles/71.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/literature-fingerprint.png
+	lyxscale 50
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sentence length visualization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+10
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:10History-Flow-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+History Flow by Fernanda Viégas and Martin Wattenberg (2003)
+\end_layout
+
+\begin_layout Itemize
+data: Wikipedia [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Flow chart time-line 
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+the history flow application charts the evolution of a document as it is
+ edited by many people using a very simple visualization technique.
+ All text segments contributed by the same editor are marked with a unique
+ color.
+ The diagram shows how some editors produce long lasting content, while
+ others don't.
+ With enough editors contributing to an article, almost every paragraph
+ or even sentence gets modified in the long run.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Viégas, F.
+ B., Wattenberg, M., & Dave, K.
+ (2004, April).
+ Studying cooperation and conflict between authors with history flow visualizati
+ons.
+ In Proceedings of the SIGCHI conference on Human factors in computing systems
+ (pp.
+ 575-582).
+ ACM.
+ [http://alumni.media.mit.edu/~fviegas/papers/history_flow.pdf]
+\end_layout
+
+\begin_layout Standard
+[http://hint.fm/projects/historyflow/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/historyflow.gif
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+History Flow by Fernanda Viégas and Martin Wattenberg researchers at IBM's
+ Visual Communication Lab (2003)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+11
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:11Colour-coded-chronological-seq"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Colour-coded chronological sequencing by Joel Deshaye and Peter Stoicheff
+ (2003)
+\end_layout
+
+\begin_layout Itemize
+data: The Sound and the Fury by William Faulkner
+\end_layout
+
+\begin_layout Itemize
+method: Timeline
+\end_layout
+
+\begin_layout Itemize
+description: Case collected by Peter Stoicheff: "This visualization (contributed
+ by Joel Deshaye and Peter Stoicheff) shows a compressed version of the
+ colour-coded "April Seventh, 1928" narrative on the left.
+ The middle bar extracts the narrative of Benjy's present day.
+ The right bar extracts the flashbacks to Caddy's wedding.
+ Although the section seems randomly ordered, within it the present and
+ each flashback reside independently as coherent, chronological sequences."
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Stoicheff, R.P.
+ "Faulkner's Foreign Levy: Macbeth ,The Sound and the Fury, and Writerhood."
+ The Sound and the Fury: a Hypertext Edition.
+ Ed.
+ Stoicheff, Muri, Deshaye, et al.
+ Updated Mar.
+ 2003.
+ U of Saskatchewan.
+ Accessed 18 Mar.
+ 2003 <http://www.usask.ca/english/faulkner>
+\end_layout
+
+\begin_layout Standard
+[http://drc.usask.ca/projects/faulkner/main/benjy_spectrum.htm]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/chronologicalnarrative.jpg
+	lyxscale 40
+	width 30theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Colour-coded chronological sequencing of William Faulkner's novel The Sound
+ and the Fury, by Joel Deshaye and Peter Stoicheff (2003)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+12
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:122-D-display-of"
+
+\end_inset
+
+\SpecialChar \menuseparator
+2-D display of time in the novel by Joel Deshaye (2003)
+\end_layout
+
+\begin_layout Itemize
+data: The Sound and the Fury by William Faulkner
+\end_layout
+
+\begin_layout Itemize
+method: Customized 2-D diagram
+\end_layout
+
+\begin_layout Itemize
+description: Case collected by Peter Stoicheff: "This graph (contributed
+ by Joel Deshaye) shows two dimensions of time in The Sound and the Fury:
+ chronological time, and Faulkner's re-ordering of chronological time into
+ the text's narrative sequence.
+ Faulkner scrambles the chronology not only by flashbacks, but also by the
+ non-linear sequence of the novel's sections.
+ Through this graph it becomes clear that the novel follows a conventional
+ in medias res structure, whose existence is otherwise obscured by more
+ local narrative complexities."
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Stoicheff, R.P.
+ "Faulkner's Foreign Levy: Macbeth ,The Sound and the Fury, and Writerhood."
+ The Sound and the Fury: a Hypertext Edition.
+ Ed.
+ Stoicheff, Muri, Deshaye, et al.
+ Updated Mar.
+ 2003.
+ U of Saskatchewan.
+ Accessed 18 Mar.
+ 2003 <http://www.usask.ca/english/faulkner>
+\end_layout
+
+\begin_layout Standard
+[http://drc.usask.ca/projects/faulkner/main/sf_2d_timegraph.htm]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/2ddisplaynovel.gif
+	lyxscale 40
+	width 40theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+2-D display of time of William Faulkner's novel The Sound and the Fury,
+ by Joel Deshaye and Peter Stoicheff (2003)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+13
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:133-D-display-of"
+
+\end_inset
+
+\SpecialChar \menuseparator
+3-D display of time in the novel by Joel Deshaye (2003)
+\end_layout
+
+\begin_layout Itemize
+data: The Sound and the Fury by William Faulkner
+\end_layout
+
+\begin_layout Itemize
+method: Highly customized 3D diagram
+\end_layout
+
+\begin_layout Itemize
+description: Case collected by Peter Stoicheff: "This graph (contributed
+ by Joel Deshaye) represents time in three different dimensions.
+ First, there is the sequence of four sections in the novel - the narrative
+ time or récit (shown in green).
+ Second, there is the chronology, l'histoire (shown in orange), beginning
+ with the earliest recollected date in the novel - Damuddy's death in 1898.
+ These two dimensions show how the conventional view of linear time can
+ be disrupted by a fictional narrative.
+ Third, there is a representation of the proportion of memories of and flashback
+s to the past in each section (shown in blue).
+ This last dimension shows how the novel progresses from an emphasis on
+ the past toward an emphasis on the present."
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Stoicheff, R.P.
+ "Faulkner's Foreign Levy: Macbeth ,The Sound and the Fury, and Writerhood."
+ The Sound and the Fury: a Hypertext Edition.
+ Ed.
+ Stoicheff, Muri, Deshaye, et al.
+ Updated Mar.
+ 2003.
+ U of Saskatchewan.
+ Accessed 18 Mar.
+ 2003 <http://www.usask.ca/english/faulkner>
+\end_layout
+
+\begin_layout Standard
+[http://drc.usask.ca/projects/faulkner/main/sf_3d_timegraph.htm]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/3ddisplaynovel.gif
+	lyxscale 40
+	width 40theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+3-D display of timeof William Faulkner's novel The Sound and the Fury, by
+ Joel Deshaye and Peter Stoicheff (2003)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+14
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:14Arc-diagram-Wattenberg"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Arc diagram Wattenberg by Martin Wattenberg (2002) 
+\end_layout
+
+\begin_layout Itemize
+data: Any text or string [Small dataset] 
+\end_layout
+
+\begin_layout Itemize
+method: Arc diagram 
+\end_layout
+
+\begin_layout Itemize
+description: Arc diagram is capable of representing complex patterns of
+ repetition in string data.
+ Arc diagrams improve over previous methods such as dotplots because they
+ scale efficiently for strings that contain many instances of the same subsequen
+ce.
+ 
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Wattenberg, M.
+ (2002).
+ Arc diagrams: Visualizing structure in strings.
+ In Information Visualization, 2002.
+ INFOVIS 2002.
+ IEEE Symposium on (pp.
+ 110-116).
+ IEEE.
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://domino.watson.ibm.com/cambridge/research.nsf/58bac2a2a6b05a1285256b30005b395
+3/e2a83c4986332d4785256c
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+a7006cb621/$FILE/TR2002-11.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/arcdiagram-wattenberg.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Arc diagram by Martin Wattenberg (2002)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+15
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:15TileBars:-Visualization-of"
+
+\end_inset
+
+\SpecialChar \menuseparator
+TileBars: Visualization of Term Distribution Information in Full Text Informatio
+n Access by Marti A.
+ Hearst (1995)
+\end_layout
+
+\begin_layout Itemize
+data: search results from information retrieval systems.
+ Applied to PubMed results.
+\end_layout
+
+\begin_layout Itemize
+method: iconic representation of a text
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+TileBars, which provides a compact and informative iconic representation
+ of the documents’ contents with respect to the query terms.
+ The goal is to simultaneously indicate: the relative length of the document,
+ the frequency of the term sets in the document, and the distribution of
+ the term sets with respect to the document and to each other.
+ Each large rectangle indicates a document, and each square within the document
+ represents a TextTile.
+ The darker the tile, the more frequent the term (white indicates 0, black
+ indicates 8 or more instances)
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+paper: Hearst, M.
+ 1995.
+ “TileBars: visualization of term distribution information in full text
+ information access.” Proceedings of the SIGCHI conference on Human http://dl.acm.o
+rg/citation.cfm?id=223912 (March 26, 2013).
+ 
+\end_layout
+
+\begin_layout Standard
+[http://dl.acm.org/citation.cfm?id=223912]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/tilebars.png
+	lyxscale 50
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+TileBar search on (patient medicine medical AND test scan cure diagnosis
+ AND software program) with stricter distribution constaints.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Part text visualization
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+16
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:16Novel-Views:-Les"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Novel Views: Les Misérables - Characteristic Verbs by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: Novel "Les Misérables" [N/A]
+\end_layout
+
+\begin_layout Itemize
+method: Tables + condensed bar graphs
+\end_layout
+
+\begin_layout Itemize
+description: "the verbs used together with character names in a novel can
+ provide a glimpse into the personalities and actions of that character.
+ For the primary people in the novel Les Misérables this graphic illustrates
+ their characteristic verbs."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/NovelViews.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/verbs.png
+	lyxscale 20
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Novel Views: Les Misérables - Characteristic Verbs by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+17
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:17Wordle-by-Jonathan"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Wordle by Jonathan Feinberg (2009) 
+\end_layout
+
+\begin_layout Itemize
+data: any text
+\end_layout
+
+\begin_layout Itemize
+method: Word cloud
+\end_layout
+
+\begin_layout Itemize
+description: Wordle is a toy for generating “word clouds” from text that
+ you provide.
+ The clouds give greater prominence to words that appear more frequently
+ in the source text.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Viegas, F.
+ B., Wattenberg, M., & Feinberg, J.
+ (2009).
+ Participatory visualization with wordle.
+ Visualization and Computer Graphics, IEEE Transactions on, 15(6), 1137-1144.
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://cyber-kap.blogspot.com.au/2011/04/top-10-sites-for-creating-word-clouds.html
+]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/Wordle-vis-inventors.png
+	lyxscale 50
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Wordle showing the professions of inventors of data visualization tools
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+18
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:18Docuburst-by-C."
+
+\end_inset
+
+\SpecialChar \menuseparator
+Docuburst by C.
+ Collins, S.
+ Carpendale , and G.
+ Penn (2009)
+\end_layout
+
+\begin_layout Itemize
+data: any text, specially used with books.
+ It is a visualization of Wordnet lexical database.
+\end_layout
+
+\begin_layout Itemize
+method: Radial, space-filling layout of hyponymy (IS-A relation)
+\end_layout
+
+\begin_layout Itemize
+description: DocuBurst is the first visualization of document content which
+ takes advantage of the human-created structure in lexical databases.
+ The authors used an accepted design paradigm to generate visualizations
+ which improve the usability and utility of WordNet as the backbone for
+ document content visualization.
+ A radial, space-filling layout of hyponymy (IS-A relation) is presented
+ with interactive techniques of zoom, filter, and details-on-demand for
+ the task of document visualization.
+ The techniques can be generalized to multiple documents.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+C.
+ Collins, S.
+ Carpendale, and G.
+ Penn, “DocuBurst: Visualizing Document Content Using Language Structure,”
+ Computer Graphics Forum (Proc.
+ of the Eurographics/IEEE-VGTC Symposium on Visualization (EuroVis)), vol.
+ 28, iss.
+ 3, pp.
+ 1039-1046, 2009.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://vialab.science.uoit.ca/portfolio/docuburst-visualizing-document-content-usi
+ng-language-structure]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/docuburst.jpg
+	lyxscale 50
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Screenshot of docuburst interactive interface.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+19
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:19Phrase-Nets-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Phrase Nets by Frank van Ham, Martin Wattenberg and Fernanda B.
+ Viégas (2009)
+\end_layout
+
+\begin_layout Itemize
+data: Any text.
+ Jane Austen's novel "Pride and Prejudice." [N/A]
+\end_layout
+
+\begin_layout Itemize
+method: Network of sized-words, some connected
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+Phrase Nets use a simple form of pattern matching to provide multiple views
+ of the concepts contained a book, speech, or poem.
+ The image below is a word graph made from Jane Austen's novel "Pride and
+ Prejudice." The program has drawn a network of words, where two words are
+ connected if they appear together in a phrase of the form "X and Y":
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Van Ham, F., Wattenberg, M., & Viégas, F.
+ B.
+ (2009).
+ Mapping text with phrase nets.
+ Visualization and Computer Graphics, IEEE Transactions on, 15(6), 1169-1176.
+\end_layout
+
+\begin_layout Standard
+[http://hint.fm/projects/phrasenet/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/phrasenet.png
+	lyxscale 50
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Phrase Nets of Jane Austen's novel "Pride and Prejudice." by Frank van Ham,
+ Martin Wattenberg and Fernanda B.
+ Viégas (2009)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+20
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:20Word-Spectrum:-Visualizing"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Word Spectrum: Visualizing Google's Bi-Gram Data by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: The huge Google bi-gram dataset [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Word spectrum
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+Using Google's enormous bigram dataset, I produced a series of visualizations
+ that explore word associations.
+ Each visualization pits two primary terms against each other.
+ Then, the use frequency of words that follow these two terms are analyzed.
+ For example, "war memorial" occurs 531,205 times, while "peace memorial"
+ occurs only 25,699.
+ A position for each word is generated by looking at the ratio of the two
+ frequencies.
+ If they are equal, the word is placed in the middle of the scale.
+ However, if there is a imbalance in the uses, the word is drawn towards
+ the more frequently related term.
+ This process is repeated for thousands of other word combinations, creating
+ a spectrum of word associations.
+ Font size is based on a inverse power function (uniquely set for each visualiza
+tion, so you can't compare across pieces).
+ Vertical positioning is random.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/WordSpectrum]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/wordspectrum.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\SpecialChar \menuseparator
+Word Spectrum: Visualizing Google's Bi-Gram Data by Chris Harrison (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+21
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:21Word-Associations-Visualizing"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Word Associations Visualizing Google's Bi-Gram Data by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: The huge Google bi-gram dataset [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Words rays
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+words are bucketed into one of 25 different rays.
+ Each of these represent a different tendency of use (ranging from 0 to
+ 100% in 4% intervals).
+ Words are sorted by decreasing frequency within each ray.
+ I render as many words as can fit onto the canvas.
+ There is a nice visual analogy at play - the "lean" of each ray represents
+ the strength of the tendency towards one of the two terms.
+ As in the word spectrum visualization, font size is based on a inverse
+ power function (uniquely set for each visualization, so you can't compare
+ across pieces).
+ Common words (a, the, for, as, etc.) are not shown.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/WordAssociations]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/wordassociation.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Word Associations Visualizing Google's Bi-Gram Data by Chris Harrison (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+22
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:22Document-Arc-Diagrams"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Document Arc Diagrams by Jeff Clark (2007) 
+\end_layout
+
+\begin_layout Itemize
+data: any text
+\end_layout
+
+\begin_layout Itemize
+method: Arc diagram
+\end_layout
+
+\begin_layout Itemize
+description: Document Arc Diagrams illustrate the similarity structure within
+ a text document by drawing arcs connecting segments of a document that
+ share similar vocabulary.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://www.neoformix.com/2007/DocumentArcDiagrams.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/docuemntarcdiagra-jeff-clark.png
+	lyxscale 50
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Jeff Clark version of arc diagrams
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+23
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:23Gist-icons-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Gist icons by P.
+ DeCamp, A.
+ Frid-Jimenez, J.
+ Guiness, D.
+ Roy (2005) 
+\end_layout
+
+\begin_layout Itemize
+data: any body of literature: 1) The complete set of approximately 7 million
+ USPTO patents; 2) Enron email data set comprised of 500,000 emails; 3)
+ A collection of computer generated speech transcripts from MIT Media Lab
+ Symposia.
+\end_layout
+
+\begin_layout Itemize
+method: interactive radial histogram
+\end_layout
+
+\begin_layout Itemize
+description: The shape contains the semantic profile of a single document
+ where the peaks and valleys are defined by the relatedness of words or
+ concepts to that document.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Decamp P., Frid-Jimenez A., Guiness J., Roy D.: Gist icons: Seeing meaning in
+ large bodies of literature.
+ In Proc.
+ of IEEE Symp.
+ on Information Visualization, Poster Session (Oct.
+ 2005).
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+\SpecialChar \menuseparator
+[http://media.mit.edu/cogmac/publications/IEEEIcons.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/gisticons.png
+	lyxscale 50
+	width 50page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Gist icons by P.
+ DeCamp, A.
+ Frid-Jimenez, J.
+ Guiness, D.
+ Roy (2005) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Texts collection visualizations
+\end_layout
+
+\begin_layout Subsection
+Collections of items visualizations
+\end_layout
+
+\begin_layout Subsubsection*
+24
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:24Novel-Views:-Les"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Novel Views: Les Misérables - Segment Word Clouds by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: Novel "Les Misérables" [N/A]
+\end_layout
+
+\begin_layout Itemize
+method: Word cloud
+\end_layout
+
+\begin_layout Itemize
+description: "a series of small word clouds for each book within the novel
+ are shown."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/NovelViews.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/segment.png
+	lyxscale 20
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Novel Views: Les Misérables - Segment Word Clouds by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+25
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:25Grimm's-Fairy-Tale"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Grimm's Fairy Tale Network by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: 62 stories of the Grimms's Fairy Tales [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: 2-dimension networks
+\end_layout
+
+\begin_layout Itemize
+description: "the graphic below is a simple network showing which stories
+ are connected through the use of a common vocabulary.
+ There are three different strengths of connection shown and I've tried
+ to minimize the usual 'hairball' nature of these types of diagrams by only
+ showing the top three connections for a story."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/GrimmNetwork.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/grimmsfairy.jpg
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grimm's Fairy Tale Network by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+26
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:26Spot-by-Jeff"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Spot by Jeff Clark (2012)
+\end_layout
+
+\begin_layout Itemize
+data: Twitter [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Multi visualization of tweets based on a search query.
+\end_layout
+
+\begin_layout Itemize
+description: "Spot is an interactive real-time Twitter visualization that
+ uses a particle metaphor to represent tweets.
+ The tweet particles are called spots and get organized in various configuration
+s to illustrate information about the topic of interest."
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2012/IntroducingSpot.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/spot.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Spot by Jeff Clark (2012)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+27
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:27Word-storm-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Word storm by Quim Castella and Charles Sutton (2012)
+\end_layout
+
+\begin_layout Itemize
+data: Papers from ICML - International Conference on Machine Learning June
+ 26July 1, 2012 Edinburgh, Scotland [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Word cloud with fixed word position
+\end_layout
+
+\begin_layout Itemize
+description: visualization of the conference session in the form of a word
+ storm, which is a group of word clouds.
+ The clouds are arranged so that if the same word appears in two clouds,
+ it is in the same position.
+ This is intended to make it easier to see the difference between clouds.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Castella, Q., & Sutton, C.
+ (2013).
+ Word Storms: Multiples of Word Clouds for Visual Comparison of Documents.
+ arXiv preprint arXiv:1301.0503.
+\end_layout
+
+\begin_layout Standard
+[http://icml.cc/2012/whatson-all/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/wordstorms.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Word storm by Quim Castella and Charles Sutton (2012)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+28
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:28Topic-Networks-in"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Topic Networks in Proust - Topology by Elijah Meeks, Jeff Drouin (2011)
+\end_layout
+
+\begin_layout Itemize
+data: Marcel Proust texts [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Topic model network
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+this is document-topic network representation.
+ This visualization shows the relationships abd topics of a collection of
+ documents.
+ Visually this is represented by the distances between documents, topics
+ and documents-topic.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[https://dhs.stanford.edu/algorithmic-literacy/topic-networks-in-proust/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/topology.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Topic Networks in Proust - Topology by Elijah Meeks, Jeff Drouin (2011)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+29
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:29Notabilia.-100-Longest"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Notabilia.
+ 100 Longest Article for Deletion [AfD] discussions on Wikipedia by Dario
+ Taraborelli, Giovanni Luca Ciampaglia (data and analysis) and Moritz Stefaner
+ (visualization).
+ (2010)
+\end_layout
+
+\begin_layout Itemize
+data: 100 Longest Article for Deletion [AfD] of Wikipedia [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Original.
+ Bouquet of edition lines
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+visualization of debate deletion of entries in Wikipedia.
+ Each time a user joins an AfD discussion and recommends to keep, merge,
+ or redirect the article a green segment leaning towards the left is added.
+ Each time a user recommends to delete the article a red segment leaning
+ towards the right is added.
+ As the discussion progresses, the length of the segments as well as the
+ angle slowly decay.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://notabilia.net/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/notabilia.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Notabilia.
+ 100 Longest Article for Deletion [AfD] discussions on Wikipedia by Dario
+ Taraborelli, Giovanni Luca Ciampaglia (data and analysis) and Moritz Stefaner
+ (visualization).
+ (2010)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+30
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:30X-by-Y"
+
+\end_inset
+
+\SpecialChar \menuseparator
+X by Y by Moritz Stefaner (2009)
+\end_layout
+
+\begin_layout Itemize
+data: Almost 40.000 submissions to the Prix Ars Electronica, from the early
+ beginnings in 1987 up to 2009 [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Visual spots in groups and colors.
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+X by Y visualizes all submissions to the Prix Ars Electronica, from the
+ early beginnings in 1987 up to 2009.
+ The goal is to characterize the "ars world" in quantitative terms.
+ A series of diagrams groups and juxtaposes the submissions by years, categories
+, prizes and countries.
+ The graphics are composed of little dots (each representing a single submission
+) to provide a visual scale for the statistical statements and thematize
+ the relation of the totality and the individual.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Book reference: 
+\shape italic
+\size small
+Stefaner, M., Ferré, S., Perugini, S., Koren, J., & Zhang, Y.
+ (2009).
+ User interface design.
+ In Dynamic Taxonomies and Faceted Search (pp.
+ 75-112).
+ Springer Berlin Heidelberg.
+\end_layout
+
+\begin_layout Standard
+[http://moritz.stefaner.eu/projects/x-by-y/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/xbyy.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+X by Y by Moritz Stefaner (2009)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+31
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:31Search-Clock-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Search Clock by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: Search engine queries [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Clock with queries
+\end_layout
+
+\begin_layout Itemize
+description: "I was curious to see if data from search engines would support
+ my anecdotal observations.
+ I built a simple clock-like visualization that displays the top search
+ terms over a 24-hour period.
+ Displaying search terms in a cyclical layout (like a clock) allows continuous
+ examination of trends that would otherwise be broken up.
+ The data I had access to was both large and noisy.
+ In response, I combined hourly data into week or year averages."
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/SearchClock]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/searchclock.png
+	lyxscale 30
+	width 55page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Search Clock by Chris Harrison (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+32
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:32Digg-Rings-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Digg Rings by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: Digg data - top 10 most digg stories of the day for May 24, 2007 to
+ May 23, 2008 [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Tree-ring-like visualizations
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+using the Digg API, I grabbed the top 10 most-dugg stories of the day (by
+ midnight) for the past year - May 24, 2007 to May 23, 2008.
+ I then rendered a series of tree-ring-like visualizations (moving outwards
+ in time).
+ Rings are colored according to Digg's eight top-level categorizations (see
+ key at bottom of page).
+ Ring thickness is linearly proportional to the number of diggs the story
+ received.
+ I also made a pair of visualizations using Digg's entire archive, which
+ goes back to December 1, 2004.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/DiggRings]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/diggrings.png
+	lyxscale 50
+	width 35pheight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Digg Rings by Chris Harrison (2008)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+33
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:33Royal-Society-Archive"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Royal Society Archive by Chris Harrison (2008) 
+\end_layout
+
+\begin_layout Itemize
+data: titles of papers of the Royal Society Archive (1665-2005) [Large dataset]
+ 
+\end_layout
+
+\begin_layout Itemize
+method: time-line 
+\end_layout
+
+\begin_layout Itemize
+description: "The Royal Society recently provided access to an archive of
+ papers published in the scientific academy's prestigious journals.
+ Some 25 thousand scholarly works are represented, which date from 1665
+ to 2005.
+ Many notable scientific minds are represented, including Isaac Newton,
+ Michael Faraday and Charles Darwin.
+ This interesting data set was ripe for some visual tinkering.
+ The database I used was put together by Brian Amento and Mike Yang of AT&T
+ Labs."
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/RoyalSociety]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/royalsociety.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Detail of the visualization Royal Society Archive by Chris Harrison (2008)
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+34
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:34WikiViz:-Visualizing-Wikipedia"
+
+\end_inset
+
+\SpecialChar \menuseparator
+WikiViz: Visualizing Wikipedia by Chris Harrison (2007)
+\end_layout
+
+\begin_layout Itemize
+data: Wikipedia [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: network
+\end_layout
+
+\begin_layout Itemize
+description: "Wikipedia is an interesting dataset for visualization.
+ As an encyclopedia, it's articles span millions of topics.
+ Being a human edited entity, connections between topics are diverse, interestin
+g, and sometimes perplexing - five hops takes you from subatomic particles
+ to Snoop Dog.
+ Wikipedia is revealing in how humans organize data and how interconnected
+ seemingly unrelated topics can be."
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/WikiViz]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/wikiviz.png
+	lyxscale 30
+	width 65page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+WikiViz: Visualizing Wikipedia by Chris Harrison (2007)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+35
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:35Area-by-Jaume"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Area by Jaume Nualart (2007)
+\end_layout
+
+\begin_layout Itemize
+data: Any collection of texts with parameterizable meta-data to discrete
+ values [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Database representation and browsing tool.
+\end_layout
+
+\begin_layout Itemize
+description: AREA represents the whole dataset, it gives a size-overview
+ of the data, is a data browser, is a data visualization, is a whole data
+ understanding, is interactive, data can be filtered, some time using Area
+ teaches about the main characteristics of the represented data.
+\end_layout
+
+\begin_layout Standard
+[http://nualart.com/area2]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/area.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Area by Jaume Nualart (2007)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+36
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:36Visualizing-Activity-on"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Visualizing Activity on Wikipedia with Chromograms by M.
+ Wattenberg, F.B.
+ Viégas, and K.
+ Hollenbach (2004)
+\end_layout
+
+\begin_layout Itemize
+data: Wikipedia [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Chromograms
+\end_layout
+
+\begin_layout Itemize
+description: a chromogram describes the unique edit pattern of a Wikipedian
+ over time by categorizing and color coding edits.Chromograms for distinct
+ persons (and bots!) can be markedly dissimilar.
+\end_layout
+
+\begin_layout Itemize
+Wattenberg, 
+\shape italic
+\size small
+M., Viégas, F.
+ B., & Hollenbach, K.
+ (2007).
+ Visualizing activity on 
+\shape default
+\size default
+Wikipedia
+\shape italic
+\size small
+ with chromograms.
+ In Human-Computer Interaction–INTERACT 2007 (pp.
+ 272-287).
+ Springer Berlin Heidelberg.
+\end_layout
+
+\begin_layout Standard
+
+\size tiny
+[http://pensivepuffin.com/dwmcphd/syllabi/info447_wi12/readings/wk09-Organizing/w
+attenberg.Chromogram.INTERACT08.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/chromogram.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Visualizing Activity on Wikipedia with Chromograms by M.
+ Wattenberg, F.B.
+ Viégas, and K.
+ Hollenbach (2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+37
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:37Kartoo/Ujiko-by-Laurent"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Kartoo/Ujiko by Laurent Baleydier and Nicholas Baleydier (2001)
+\end_layout
+
+\begin_layout Itemize
+data: Internet web pages [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Search results as a map of web pages with tagged edges
+\end_layout
+
+\begin_layout Itemize
+description: 
+\begin_inset Quotes eld
+\end_inset
+
+Kartoo and Ujiko have been the more advanced search engine interfaces for
+ a wide use.
+ The resultsa were presented as a map of web pages with tagged edges.
+ Kartoo (later Ujiko) was norm in 2001 and shut down in 2010.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://en.Wikipedia.org/wiki/Kartoo]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/kartoo.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Kartoo/Ujiko by Laurent Baleydier and Nicholas Baleydier (2001)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+38
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:38Touchgraph-by-TouchGraph,"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Touchgraph by TouchGraph, LLC.
+ (2001)
+\end_layout
+
+\begin_layout Itemize
+data: Search engine results [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Network visualization of search results
+\end_layout
+
+\begin_layout Itemize
+description: TouchGraph was founded in 2001 with the creation of the original
+ visual browser for Google.
+ Since then, millions of people have used TouchGraph's tools to discover
+ the relationships contained in Google, Amazon, Wikis, and other popular
+ information sources.
+ 
+\end_layout
+
+\begin_layout Standard
+[http://www.touchgraph.com/seo]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/touchgraph.gif
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Touchgraph by TouchGraph, LLC.
+ (2001)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+39
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:39HotSauce-by-Ramanathan"
+
+\end_inset
+
+\SpecialChar \menuseparator
+HotSauce by Ramanathan V.
+ Guha (1996)
+\end_layout
+
+\begin_layout Itemize
+data: Websites relationships written in Meta Content Framework (MCF), a
+ precursor of RDF.
+ [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: 3D interactive network
+\end_layout
+
+\begin_layout Itemize
+description: Ramanathan V.
+ Guha: 
+\begin_inset Quotes eld
+\end_inset
+
+HotSauce worked as a plug-in to an existing browser so that when a hyperlink
+ to a MCF-enabled website was selected the user was dropped into a first-person
+ perspective view of the Web.
+ It was a videogame view with Web pages floating as brightly colored blocks
+ in an infinite black space, something like the view from a starship cockpit
+ navigating through some strange asteroid field.
+ It was easy to fly into and around the space, using the mouse to guide
+ the direction of flight and holding down buttons to go forwards and backwards.
+ A page could be accessed by simply double-clicking on the relevant block.
+ A 3D immersive environment where I could move around an Antarcti.ca like
+ space, moving things around, interacting with others in that space.
+ And I should be able to do this wherever I am!
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[http://mappa.mundi.net/maps/maps_018/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/hotsauce.gif
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+HotSauce by Ramanathan V.
+ Guha (1996)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Collections of aggregations visualization
+\end_layout
+
+\begin_layout Subsubsection*
+40
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:40Grimm's-Fairy-Tale"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Grimm's Fairy Tale Metrics by Jeff Clark (2013)
+\end_layout
+
+\begin_layout Itemize
+data: 62 stories of the Grimms's Fairy Tales [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Sortable matrix with links to the dataset
+\end_layout
+
+\begin_layout Itemize
+description: very complete metric analysis of the 62 stories of the Grimms
+ brothers.
+ This is a high quality example of a tool for linguistics analysis.
+\end_layout
+
+\begin_layout Standard
+[http://neoformix.com/2013/GrimmStoryMetrics.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/metrics.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grimm's Fairy Tale Metrics by Jeff Clark (2013)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+41
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:41Termite:-Visualization-Techniq"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Termite: Visualization Techniques for Assessing Textual Topic Models by
+ Jason Chuang, Christopher D.
+ Manning, Jeffrey Heer (2012)
+\end_layout
+
+\begin_layout Itemize
+data: any text corpora [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Matrix/tabular view
+\end_layout
+
+\begin_layout Itemize
+description: it is matrix view to support the assessment of topical term
+ distributions and enable the comparison of latent topics.
+ And, in general, it is a visualization of topic models and their terms
+ distribution.
+ 
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Chuang, J., Manning, C.
+ D., & Heer, J.
+ (2012, May).
+ Termite: Visualization techniques for assessing textual topic models.
+ In Proceedings of the International Working Conference on Advanced Visual
+ Interfaces (pp.
+ 74-77).
+ ACM.
+\end_layout
+
+\begin_layout Standard
+[http://vis.stanford.edu/papers/termite]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/termite.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Termite: Visualization Techniques for Assessing Textual Topic Models by
+ Jason Chuang, Christopher D.
+ Manning, Jeffrey Heer (2012)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+42
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:42Pediameter-by-Müller-Birn,"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Pediameter by Müller-Birn, Benedix and Hantke (2011)
+\end_layout
+
+\begin_layout Itemize
+data: Wikipedia [N/A]
+\end_layout
+
+\begin_layout Itemize
+method: time-line + arduino indicator
+\end_layout
+
+\begin_layout Itemize
+description: a live visualization of Wikipedia Edits using pixel block in
+ a time-line and an arduino indicator
+\end_layout
+
+\begin_layout Standard
+[http://l3q.de/pediameter/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/pediameter.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pediameter by Müller-Birn, Benedix and Hantke (2011)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+43
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:43Web-Seer-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Web Seer by Fernanda Viégas & Martin Wattenberg (2009)
+\end_layout
+
+\begin_layout Itemize
+data: Google search suggestions [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Connected trees
+\end_layout
+
+\begin_layout Itemize
+description: a visualization that lets you compare two Google suggest queries.
+\end_layout
+
+\begin_layout Standard
+[http://hint.fm/seer/]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/webseer.gif
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Web Seer by Fernanda Viégas & Martin Wattenberg (2009)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+44
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:44Web-Trigrams:-Visualizing"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Web Trigrams: Visualizing Google's Tri-Gram Data by Chris Harrison (2008)
+\end_layout
+
+\begin_layout Itemize
+data: Google n-gram dataset (2006) [large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: specific.
+ Connected trees
+\end_layout
+
+\begin_layout Itemize
+description: "As soon as I got my hands on the data, I quickly got to work
+ on some straight forward visualizations.
+ The first type compares two sets of trigrams, each starting with a different
+ word.
+ One visualization compares 'He' with 'She', while the other uses 'I' and
+ 'You'.
+ In the case of the 'He' vs.
+ 'She', the top 120 trigrams for each were identified.
+ The frequencies of the second word in the trigrams were combined and sorted,
+ and rendered in decreasing frequency-of-use order.
+ A similar process was used to create a ranking for the third (and final)
+ word in the trigrams.
+ Words are sized according to the square root of their use frequencies.
+ The color-coded lines act like paths (a tree structure), enumerating all
+ of the trigrams.
+ The process was identical for the 'I' and 'You' version, except that only
+ the top 75 trigrams were used."
+\end_layout
+
+\begin_layout Standard
+[http://www.chrisharrison.net/index.php/Visualizations/WebTrigrams]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/webtrigrams.png
+	lyxscale 30
+	width 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Differences in how the he and she subjects are used.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+45
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:45FeaturedLens-by-A."
+
+\end_inset
+
+\SpecialChar \menuseparator
+FeaturedLens by A.
+ Don, E.
+ Zheleva, M.
+ Gregory, S.
+ Tarkan, L.
+ Auvil, T.
+ (2007)
+\end_layout
+
+\begin_layout Itemize
+data: President Bush’s eight annual speeches (2001-2007)
+\end_layout
+
+\begin_layout Itemize
+method: rich interface for search, visualize and explore texts
+\end_layout
+
+\begin_layout Itemize
+description: FeatureLens visualizes a text collection at several levels
+ of granularity and enables users to explore interesting text patterns.
+ The current implementation focuses on frequent itemsets of n-grams, as
+ they capture the repetition of exact or similar expressions in the collection.
+ Users can find meaningful co-occurrences of text patterns by visualizing
+ them within and across documents in the collection.
+ This also permits users to identify the temporal evolution of usage such
+ as increasing, decreasing or sudden appearance of text patterns.
+ The interface could be used to explore other text features as well.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Don A., Zheleva E., Gregory M., Tarkan S., Auvil L., Clement T., Shneiderman B.,
+ Plaisant C.: Discovering interesting usage patterns in text collections:
+ Integrating text mining with visualization.
+ In Proc.
+ of the Conf.
+ on Information and Knowledge Management (2007).
+\end_layout
+
+\begin_layout Standard
+[http://hcil2.cs.umd.edu/trs/2007-08/2007-08.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/featurelens.png
+	lyxscale 30
+	width 50theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Screenshot of the FeatureLens interface.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+46
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:46Newsmap-by-Marcos"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Newsmap by Marcos Weskamp (2004)
+\end_layout
+
+\begin_layout Itemize
+data: Google news [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Treemap
+\end_layout
+
+\begin_layout Itemize
+description: "Newsmap is an application that visually reflects the constantly
+ changing landscape of the Google News news aggregator.
+ Google News automatically groups news tories with similar content and places
+ them based on algorithmic results into clusters.
+ In Newsmap, the size of each cell is determined by the amount of related
+ articles that exist inside each news cluster that the Google News Aggregator
+ presents.
+ In that way users can quickly identify which news stories have been given
+ the most coverage, viewing the map by region, topic or time"
+\end_layout
+
+\begin_layout Standard
+[http://marumushi.com/projects/newsmap]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/newsmap.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Newsmap by Marcos Weskamp (2004)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+47
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:47TheMail-by-Fernanda"
+
+\end_inset
+
+\SpecialChar \menuseparator
+TheMail by Fernanda B.
+ Viégas, Scott Golder, Judith Donath (2006)
+\end_layout
+
+\begin_layout Itemize
+data: Collection of emails conversation.
+ [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Speciphic interface.
+ Time line with columns of words
+\end_layout
+
+\begin_layout Itemize
+description: "a visualization that portrays relationships using the interaction
+ histories preserved in email archives.
+ Using the content of exchanged messages, it shows the words that characterize
+ ones correspondence with an individual and how they change over the period
+ of the relationship."
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Viégas, F.
+ B., Golder, S., & Donath, J.
+ (2006, April).
+ Visualizing email content: portraying relationships from conversational
+ histories.
+ In Proceedings of the SIGCHI conference on Human Factors in computing systems
+ (pp.
+ 979-988).
+ ACM.
+\end_layout
+
+\begin_layout Standard
+[http://smg.media.mit.edu/papers/Viegas/themail/viegas_themail.pdf]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/themail.png
+	lyxscale 30
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+TheMail by Fernanda B.
+ Viégas, Scott Golder, Judith Donath (2006)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+48
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:48WebBook-by-Stuart"
+
+\end_inset
+
+\SpecialChar \menuseparator
+WebBook by Stuart K.
+ Card, George G.
+ Robertson, and William York (1996)
+\end_layout
+
+\begin_layout Itemize
+data: Search engine results [Small dataset]
+\end_layout
+
+\begin_layout Itemize
+method: 3D interactive book of HTML pages
+\end_layout
+
+\begin_layout Itemize
+description: WebBook was a dynamic multimedia contents constructor from
+ lists of Internet pages.
+ It is very inspiring the reading of the 1996 paper to understand the history
+ of the world wide web.
+ 
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Card, S.
+ K., Robertson, G.
+ G., & York, W.
+ (1996, April).
+ The WebBook and the Web Forager: an information workspace for the World-Wide
+ Web.
+ In Proceedings of the SIGCHI conference on Human factors in computing systems:
+ common ground (pp.
+ 111-ff).
+ ACM.
+\end_layout
+
+\begin_layout Standard
+[http://www.sigchi.org/chi96/proceedings/papers/Card/skc1txt.html]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/webbook.jpg
+	lyxscale 60
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+WebBook by Stuart K.
+ Card, George G.
+ Robertson, and William York (1996)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+49
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:49Dotplot-Applications-by"
+
+\end_inset
+
+\SpecialChar \menuseparator
+Dotplot Applications by Jonathan Helfman (1994)
+\end_layout
+
+\begin_layout Itemize
+data: Any text [Large dataset]
+\end_layout
+
+\begin_layout Itemize
+method: Dotplot
+\end_layout
+
+\begin_layout Itemize
+description: a bit minimalistic and very effective method to check similarity
+ in large amount of texts, including multilanguage texts or computer code.
+\end_layout
+
+\begin_layout Itemize
+paper: 
+\shape italic
+\size small
+Helfman, J.
+ (1996).
+ Dotplot patterns: a literal look at pattern languages.
+ Theory and Practice of Object Systems, 2(1), 31-41.
+\end_layout
+
+\begin_layout Standard
+[http://imagebeat.com/index.php?id=17]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/VisReviews/dotplot.png
+	lyxscale 30
+	width 45page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Dotplot Applications by Jonathan Helfman (1994)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
