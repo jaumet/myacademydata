@@ -21,4 +21,14 @@ For instance, in most cities one can observe how the inner city contains the old
 The map was built on top of the CitySDK, a linked data distribution platform that enables the linking between (mobility) datasets and city services.
 
 ~~~~
-*
+* SEC Document Clustering
+David Masad & Sanjay Nayar
+Each dot below represents a corporation. The closer two dots are in a given year, the more similar the text of the Management Discussion and Analysis sections in their SEC 10-K filings for that year. Click-drag to select companies in one year, and the same companies will be highlighted in all other years.
+http://www.davidmasad.com/sandbox/FirmClusters.html
+
+~~~~
+* 
+
+
+
+
