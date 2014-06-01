@@ -9,6 +9,11 @@ SINGLE TEXTS:
 - Comic Book Narrative Charts: Automatically generating narrative charts for comic books, based on xkcd‘s Movie Narrative Charts Development: Ongoing
 http://csclub.uwaterloo.ca/~n2iskand/?page_id=13
 
+- V1 in Icelandic: A Multifactorical Visualization of Historical Data
+Miriam Butt, Tina B ¨ogel, Kristina Kotcheva, Christin Sch ¨atzle,Christian Rohrdantz, Dominik Sacha, Nicole Deh´e, Daniel A. Keim
+University of Konstanz78457 Konstanz, Germanyﬁrstname.lastname@uni-konstanz.de
+https://www.academia.edu/7171623/V1_in_Icelandic_A_Multifactorial_Visualization_of_Historical_Data
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 COLLECTIONS OF TEXTS:
 
