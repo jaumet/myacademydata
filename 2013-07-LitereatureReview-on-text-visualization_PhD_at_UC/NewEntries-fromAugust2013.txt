@@ -1,6 +1,14 @@
+Taking notes about viz:
 
+1) New approaches found after review's 1st version (2013/07)
+2) Lovely examples of excellents in datavis, IMHO
+
+~~~~~~~~~~~~~~~~~~~~~
+1) New approaches found after review 1st version (2013/07)
 SINGLE TEXTS:
 
+- Visualizing Joyce's 'Ulysses': "Sirens" As A Graphic Score, By Emily Fuhrman
+	http://visualizing.org/visualizations/visualizing-joyces-ulysses-sirens-graphic-score?utm_source=Visualization&utm_medium=Social&utm_campaign=Daily
 
 - Bible Cross References Visualization (2 text references comparison)
 	http://www.openbible.info/labs/cross-references/visualization
@@ -76,5 +84,14 @@ http://www.davidmasad.com/sandbox/FirmClusters.html
  
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2) Lovely examples of excellents in datavis, IMHO
+
+
+-> [2014/05] Rating a Health Law’s Success
+	By LARRY BUCHANAN, HANNAH FAIRFIELD and KAREN YOURISH
+	http://www.nytimes.com/interactive/2014/05/19/health/rating-a-health-laws-success.html?smid=tw-share
+	Comment: Linear exploration of facts, using text and representation for each fact.
+		(Could it be a good interface for crossreads too?)
 
 
