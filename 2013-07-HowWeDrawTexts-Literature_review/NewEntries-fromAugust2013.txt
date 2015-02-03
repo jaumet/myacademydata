@@ -1,23 +1,59 @@
 
 SINGLE TEXTS:
 
+
 - Bible Cross References Visualization (2 text references comparison)
 	http://www.openbible.info/labs/cross-references/visualization
 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 - Collection of bible vis works: http://www.theguardian.com/news/datablog/gallery/2013/sep/05/holy-infographics-bible-visualised#/?picture=416571905&index=4
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - Comic Book Narrative Charts: Automatically generating narrative charts for comic books, based on xkcd‘s Movie Narrative Charts Development: Ongoing
 http://csclub.uwaterloo.ca/~n2iskand/?page_id=13
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - V1 in Icelandic: A Multifactorical Visualization of Historical Data
 Miriam Butt, Tina B ¨ogel, Kristina Kotcheva, Christin Sch ¨atzle,Christian Rohrdantz, Dominik Sacha, Nicole Deh´e, Daniel A. Keim
 University of Konstanz78457 Konstanz, Germanyﬁrstname.lastname@uni-konstanz.de
 https://www.academia.edu/7171623/V1_in_Icelandic_A_Multifactorial_Visualization_of_Historical_Data
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 COLLECTIONS OF TEXTS:
 
+
+
 ~~~~
+Media frames streams - monitoring World food security issues
+
+	- PulseWeb project explored whether is possible to track and comprehend thematic shifts in media attention through the automatic analysis of news articles. To do so, we analyzed how the Francophone media reported on food security issues over the past 8 years. This project was conducted for the Global Pulse initiative made by the UN. It is supported by researchers from ISC-PIF and IFRIS.
+
+http://www.sciences-technologies.eu/en/research-areas/text-analytics/79-media-frames-streams-monitoring-world-food-security-issues.html
+
+NOTE: the main site is down, but:
+
+Explanation of the tool:
+http://www.sciences-technologies.eu/images/stories/articles/textanalytics/wp.pdf
+
+Another anouncement of the tool:
+http://www.cortext.net/projects/pulseweb.html
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * PaperScape: an Overview of all Scientific Papers Submitted at arXiv: http://paperscape.org/buildings_nl.jpg
 What can be accomplished for about 320,000 buildings in a New York neighborhood, can also be done for 9,866,539 buildings located in a whole country. In the interactive map [waag.org] each building in the Netherlands is been shaded according to the year of its construction.
 
@@ -25,14 +61,19 @@ For instance, in most cities one can observe how the inner city contains the old
 
 The map was built on top of the CitySDK, a linked data distribution platform that enables the linking between (mobility) datasets and city services.
 
-~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 * SEC Document Clustering
 David Masad & Sanjay Nayar
 Each dot below represents a corporation. The closer two dots are in a given year, the more similar the text of the Management Discussion and Analysis sections in their SEC 10-K filings for that year. Click-drag to select companies in one year, and the same companies will be highlighted in all other years.
 http://www.davidmasad.com/sandbox/FirmClusters.html
 
-~~~~
-* 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 
 
 
 
