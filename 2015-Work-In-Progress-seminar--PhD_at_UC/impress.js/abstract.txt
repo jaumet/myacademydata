@@ -1,0 +1,7 @@
+This practice led research project has produced text visualization ideas which aim to help people who work with digitalized texts in real scenarios. Those ideas, in turn, have produced several artifacts: software, graphics and theoretical framework. 
+
+All this production plus the evaluation studies (not yet available), are the base to answer the research question: How can we create text visualisation tools that are used in real scenarios? 
+
+With not all user evaluation tests analysed, the insights from this phase od the research project are:
+- I did artifacts in real scenarios. And the users seem to prefer the tools created in this project than their only-text actual version. Then, must be a lot of room for people from a variety of knowledge fields in text visualization projects. Also, today, 2015, most of the texts and collections of texts -digital libraries- haven't adopted text visualization approaches for their archives and libraries.
+-  
