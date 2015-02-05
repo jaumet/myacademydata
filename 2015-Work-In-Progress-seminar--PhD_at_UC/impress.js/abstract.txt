@@ -1,9 +1,20 @@
 ABSTRACT
-This practice led research project has produced text visualization ideas which aim to help people who work with digitalized texts in real scenarios. Those ideas, in turn, have produced several artifacts: software, graphics and theoretical framework. 
-All this production plus the evaluation studies (not yet available), are the base to answer the research question: How can we create text visualisation tools that are used in real scenarios?
+
+(2015-02-05 copyedited by Mitchell)
+This practice led research project has produced text visualization ideas which aim to help people who work with digitalized texts in real scenarios. Those ideas, in turn, have produced several artifacts: software, graphics and a theoretical framework.
+All this production plus the evaluation studies (still underway), will be used to address the research question: How can we create text visualisation tools that are used in real scenarios?
+
+
+(2015-02-02 original)
+# This practice led research project has produced text visualization ideas which aim to help people who work with digitalized texts in real scenarios. 
+# Those ideas, in turn, have produced several artifacts: software, graphics and theoretical framework. 
+# All this production plus the evaluation studies (not yet available), are the base to answer the research question: How can we create text visualisation 
+# tools that are used in real scenarios?
 
 
 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 With not all user evaluation tests analysed, the insights from the test says: 
@@ -11,4 +22,4 @@ With not all user evaluation tests analysed, the insights from the test says:
 - Today, 2015, most of the texts and collections of texts -digital libraries- haven't adopted any text visualization approach to explore and search their archives and libraries.
 - Data visualization is a growing discipline
 - The collaboration with machine learning brings high quality data analysis, In exchange, data visualization multiplies and translate to laypeople those analysis. It has been a very fruitful collaboration with NICTA-MLRG.
-
+- Real scenarion implies constrains and, in contrast, brings possible impact.
