@@ -23,3 +23,15 @@ With not all user evaluation tests analysed, the insights from the test says:
 - Data visualization is a growing discipline
 - The collaboration with machine learning brings high quality data analysis, In exchange, data visualization multiplies and translate to laypeople those analysis. It has been a very fruitful collaboration with NICTA-MLRG.
 - Real scenarion implies constrains and, in contrast, brings possible impact.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scientic rationale line for     question
+
+:
+presentations
+
+    Assumptions
+    hypothesis
+    assertion
+    empirical evidence
+    
