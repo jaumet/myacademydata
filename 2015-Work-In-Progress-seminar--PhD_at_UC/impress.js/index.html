@@ -10,7 +10,7 @@
     <meta name="author" content="Bartek Szopka" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link href="css/impress-demo.css" rel="stylesheet" />    
+    <link href="css/impress-demo.css" rel="stylesheet" /> 
     <link rel="shortcut icon" href="favicon.png" />
 </head>
 
@@ -44,9 +44,8 @@
 
     <div class="step" data-x="0" data-y="0" data-z="5000" data-scale="1" data-rotate="45">
         <q><strong>Abstract</strong></q>
-        <p>This practice led research project has produced text visualization ideas that aim to help people when using digitalized texts in real scenarios. Those ideas, in turn, produced several artifacts</p>
-        <p>All this production plus the evaluation studies (not yet available), are the base to answer the research question: How can we create text visualisation tools that are used in real scenarios?
-		<br />
+        <p>This practice led research project has produced text visualization ideas which aim to help people who work with digitalized texts in real scenarios. Those ideas, in turn, have produced several artifacts: software, graphics and a theoretical framework.</p>
+        <p>All this production plus the evaluation studies (still underway), will be used to address the research question: How can we create text visualisation tools that are used in real scenarios?</p>
     </div>
 
 <!-- OVERALL ------------------------->
@@ -89,8 +88,24 @@
 
 </div>
 
+
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
-
+<script type="text/javascript" src="js/zoom.js"></script>
+<script>
+    document.addEventListener( 'click', function( event ) {
+		event.preventDefault();
+		var xx = event.clientX;
+		var yy = event.clientY;
+		//alert(xx+" | "+ yy);
+		//zoom.to({ element: event.target });
+		zoom.to({
+            x: xx-100,
+            y: yy-100,
+            width: 500,
+            height: 500
+        });
+	} );
+</script>
 </body>
 </html>
