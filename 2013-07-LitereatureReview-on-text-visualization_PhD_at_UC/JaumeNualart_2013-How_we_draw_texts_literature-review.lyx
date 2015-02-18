@@ -83,6 +83,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/cc-by-sa.png
+	lyxscale 5
+	width 0.5cm
 
 \end_inset
 
@@ -10131,7 +10133,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status collapsed
+status open
 
 \begin_layout Itemize
 1765 Timeline - Joseph Priestley [theologian, Dissenting clergyman, natural
@@ -10170,8 +10172,16 @@ status collapsed
 \end_layout
 
 \begin_layout Itemize
-1923 Tagcloud ERUTARETTIL – André Breton [write, poet] and Robert Desnos
- [poet], proto-surrealist magazine Littérature.
+1923 Tagcloud 
+\begin_inset Quotes eld
+\end_inset
+
+ERUTARETTIL
+\begin_inset Quotes erd
+\end_inset
+
+ – André Breton [write, poet] and Robert Desnos [poet], proto-surrealist
+ magazine Littérature.
  It weighs the importance of certain writers for the nascent surrealists.
 \end_layout
 
