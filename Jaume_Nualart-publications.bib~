@@ -1,21 +1,3 @@
-@phdthesis{nualart2016visualization,
-  title={Visualization and exploration of texts. A theoretical framework and two practical approaches for improvement of digital libraries and information retrieval systems.},
-  author={Nualart Vilaplana, Jaume},
-  year={2015},
-  school={Universitat de Barcelona}
-  type = {{PhD} dissertation}
-}
-
-@misc{VisualAn87:online,
-  author = {Daniel Alcaidem Jansi Thiyagarajan, Houda Lamqaddam, Jaume Nualart Vilaplana, Jan Aerts},
-  title = {Visual Anomaly Detection in Spatio-Temporal Data using Element-Specific References},
-  howpublished = {\url{https://www.researchgate.net/publication/308675314_Visual_Anomaly_Detection_in_Spatio-Temporal_Data_using_Element-Specific_References}},
-  month = {October},
-  year = {2016},
-  note = {(Accessed on 09/29/2016)}
-}
-
-
 @article{nualart2014we,
   title={How we draw texts: A review of approaches to text visualization and exploration},
   author={Nualart-Vilaplana, Jaume and P{\'e}rez-Montoro, Mario and Whitelaw, Mitchell},
@@ -67,11 +49,7 @@
   year={2014}
 }
 
-<<<<<<< HEAD
-@article{P{\'e}rezMontoro2015572,
-=======
 @article{PérezMontoro2015572,
->>>>>>> f84fcb2e931cae2c97b73168c601a17ba06221e0
 title = "Visual articulation of navigation and search systems for digital libraries ",
 journal = "International Journal of Information Management ",
 volume = "35",
@@ -82,21 +60,10 @@ note = "",
 issn = "0268-4012",
 doi = "http://dx.doi.org/10.1016/j.ijinfomgt.2015.06.005",
 url = "http://www.sciencedirect.com/science/article/pii/S0268401215000614",
-<<<<<<< HEAD
-author = "Mario P{\'e}rez-Montoro and Jaume Nualart",
-=======
 author = "Mario Pérez-Montoro and Jaume Nualart",
->>>>>>> f84fcb2e931cae2c97b73168c601a17ba06221e0
 keywords = "Searching",
 keywords = "Browsing",
 keywords = "Information visualization",
 keywords = "Information management",
-<<<<<<< HEAD
 keywords = "Digital libraries "
 }
-=======
-keywords = "Digital libraries ",
-abstract = "Abstract Journal and digital library portals are the information systems that researchers turn to most frequently for undertaking and disseminating their academic work. However, their interfaces have not been improved. We propose an articulation of the navigation and search systems in a single visual solution that would allow the simultaneous exploration and interrogation of the information system. Area is a low-cost visualization tool that is easy to implement, and which can be used with large collections of documents. Moreover, it has a short learning curve that enhances both user-experience and user-satisfaction with journal and digital library websites. "
-}
-
->>>>>>> f84fcb2e931cae2c97b73168c601a17ba06221e0
